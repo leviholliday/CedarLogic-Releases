@@ -4,7 +4,7 @@ Installers for CedarLogic 4, a digital logic simulator for Mac and Windows. The 
 
 Get the latest version from [Releases](../../releases/latest).
 
-- **Mac:** `CedarLogic-<version>-mac.dmg`. Drag the app into Applications. The first time you open it, right-click it and choose Open.
+- **Mac:** `CedarLogic-<version>-mac.dmg`. Drag the app into Applications.
 - **Windows:** `CedarLogic-<version>-win32.exe`. If Windows says it protected your PC, choose More info, then Run anyway.
 
 Found a bug? [Open an issue](../../issues/new).
