@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:cedarlogic="https://github.com/leviholliday/CedarLogic">
+  <channel>
+    <title>CedarLogic Native updates (beta testers)</title>
+    <link>https://github.com/leviholliday/CedarLogic-Releases</link>
+    <description>CedarLogic Native updates (beta testers)</description>
+    <language>en</language>
+    <!-- item macos 735 -->
+    <item>
+      <title>CedarLogic 0.1 (build 735) beta</title>
+      <pubDate>Fri, 25 Sep 2026 20:17:25 -0000</pubDate>
+      <sparkle:version>735</sparkle:version>
+      <sparkle:shortVersionString>0.1 (build 735) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 4.0.1 beta</h3>
+<ul>
+<li>Updates now install from inside the app (Help &gt; Check for Updates).</li>
+<li>New setting: Settings &gt; General &gt; Testing group (Normal or Beta tester).</li>
+<li>Both Mac apps are here: <b>CedarLogic-4.0.1-mac.dmg</b> (the classic CedarLogic) and <b>CedarLogic-Native-4.0.1-mac.zip</b> (the new native Mac app). First launch: right-click &gt; Open.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.0.1/CedarLogic-Native-4.0.1-mac.zip"
+        length="4270022"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="0WvapuJq5zcGKKk6k6w7o+EpEYFcx4+34OcYGd42THUjDp3KjbFzrEHXoXZKhuKgZY+b2njyHhQouBMnVsT/CA=="/>
+    </item>
+  </channel>
+</rss>
