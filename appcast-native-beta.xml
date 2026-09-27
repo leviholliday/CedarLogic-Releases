@@ -5,6 +5,28 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 740 -->
+    <item>
+      <title>CedarLogic 0.2.1 (build 740) beta</title>
+      <pubDate>Sun, 27 Sep 2026 07:18:31 -0000</pubDate>
+      <sparkle:version>740</sparkle:version>
+      <sparkle:shortVersionString>0.2.1 (build 740) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic Native 0.2.1</h3>
+<ul>
+<li><b>The toolbar works every time.</b> Buttons take every click (even quick or slightly sloppy ones), light up wherever you point at them and show their tooltips. A click no longer nudges the window.</li>
+<li><b>The toolbar&#x27;s empty space behaves like a title bar:</b> drag it to move the window, double-click it to fill the screen, drag a filled window to bring it back to its size. In focus mode the tab strip does the same.</li>
+<li><b>Better on battery:</b> while a circuit with a clock runs, the app stops drawing whenever you can&#x27;t see the window.</li>
+<li><b>Export for older CedarLogic:</b> File &gt; Export as V2 (legacy XML)… and Export as V1.x Compatible…, for computers that still have an old version.</li>
+<li><b>Split view keys from the classic app:</b> Switch Pane (⌘⌥→) and Close Split (⌘⌥W).</li>
+<li><b>Help &gt; Set Up CedarLogic…</b> walks through the settings again.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.1/CedarLogic-Native-0.2.1-mac.zip"
+        length="7465800"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="+xpHCd5+LTE2fvOEIvLyNyzjHuvD2eNYrP/HNwUX5e2ilgIi/vlgT3w/faEGgR2Bpd8uKAyVMznVNuf2AbQGDQ=="/>
+    </item>
     <!-- item macos 737 -->
     <item>
       <title>CedarLogic 0.2 (build 737) beta</title>
