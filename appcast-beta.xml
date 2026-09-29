@@ -8,7 +8,7 @@
     <!-- item linux-aarch64 4.0.2 -->
     <item>
       <title>CedarLogic 4.0.2 beta</title>
-      <pubDate>Tue, 29 Sep 2026 20:24:39 -0000</pubDate>
+      <pubDate>Tue, 29 Sep 2026 20:34:29 -0000</pubDate>
       <sparkle:version>4.0.2</sparkle:version>
       <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
       <description><![CDATA[<ul>
@@ -21,10 +21,26 @@
         cedarlogic:arch="aarch64"
         cedarlogic:sha256="b521a9c04b36458ea2bff307786620c4f3ff7a8189cd444205536690c01c40a8"/>
     </item>
+    <!-- item macos 4.0.2 -->
+    <item>
+      <title>CedarLogic 4.0.2 beta</title>
+      <pubDate>Tue, 29 Sep 2026 20:34:29 -0000</pubDate>
+      <sparkle:version>4.0.2</sparkle:version>
+      <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>New: <b>Send Feedback</b> (Help &gt; Send Feedback, or the speech bubble on the toolbar). Write what happened, pick tags and how much it matters, and add a screenshot of CedarLogic right from the form. It goes straight to Levi.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.0.2/CedarLogic-4.0.2-mac.dmg"
+        length="15472373"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="ekSwts5hcIsCqVHmPxZwFKhiu4D6wZBK0Jxrr4+yPo6zRTgmVV6FmJHoiG8s10aAnuYbOnOH8cWcoL1EYFMhDg=="/>
+    </item>
     <!-- item windows 4.0.2 -->
     <item>
       <title>CedarLogic 4.0.2 beta</title>
-      <pubDate>Tue, 29 Sep 2026 20:24:39 -0000</pubDate>
+      <pubDate>Tue, 29 Sep 2026 20:34:29 -0000</pubDate>
       <sparkle:version>4.0.2</sparkle:version>
       <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
       <description><![CDATA[<ul>
@@ -40,7 +56,7 @@
     <!-- item linux-x86_64 4.0.2 -->
     <item>
       <title>CedarLogic 4.0.2 beta</title>
-      <pubDate>Tue, 29 Sep 2026 20:24:39 -0000</pubDate>
+      <pubDate>Tue, 29 Sep 2026 20:34:29 -0000</pubDate>
       <sparkle:version>4.0.2</sparkle:version>
       <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
       <description><![CDATA[<ul>
