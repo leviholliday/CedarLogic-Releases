@@ -5,6 +5,54 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic updates (beta testers)</description>
     <language>en</language>
+    <!-- item linux-aarch64 4.0.2 -->
+    <item>
+      <title>CedarLogic 4.0.2 beta</title>
+      <pubDate>Tue, 29 Sep 2026 20:24:39 -0000</pubDate>
+      <sparkle:version>4.0.2</sparkle:version>
+      <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
+      <description><![CDATA[<ul>
+<li>New: <b>Send Feedback</b> (Help &gt; Send Feedback, or the speech bubble on the toolbar). Write what happened, pick tags and how much it matters, and add a screenshot of CedarLogic right from the form. It goes straight to Levi.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.0.2/CedarLogic-4.0.2-aarch64.AppImage"
+        length="15288840"
+        type="application/octet-stream"
+        sparkle:os="linux"
+        cedarlogic:arch="aarch64"
+        cedarlogic:sha256="b521a9c04b36458ea2bff307786620c4f3ff7a8189cd444205536690c01c40a8"/>
+    </item>
+    <!-- item windows 4.0.2 -->
+    <item>
+      <title>CedarLogic 4.0.2 beta</title>
+      <pubDate>Tue, 29 Sep 2026 20:24:39 -0000</pubDate>
+      <sparkle:version>4.0.2</sparkle:version>
+      <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
+      <description><![CDATA[<ul>
+<li>New: <b>Send Feedback</b> (Help &gt; Send Feedback, or the speech bubble on the toolbar). Write what happened, pick tags and how much it matters, and add a screenshot of CedarLogic right from the form. It goes straight to Levi.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.0.2/CedarLogic-4.0.2-win32.exe"
+        length="22265122"
+        type="application/octet-stream"
+        sparkle:os="windows"
+        sparkle:edSignature="O5Zo1iAx5QqRuOCWXYMvPKt7C3gdkB6qWJalW0qaoLAnU4F61uY6ldKT85xcV3v+kywYP2nnM/QorRUldpykCg=="
+        sparkle:installerArguments="/S"/>
+    </item>
+    <!-- item linux-x86_64 4.0.2 -->
+    <item>
+      <title>CedarLogic 4.0.2 beta</title>
+      <pubDate>Tue, 29 Sep 2026 20:24:39 -0000</pubDate>
+      <sparkle:version>4.0.2</sparkle:version>
+      <sparkle:shortVersionString>4.0.2 beta</sparkle:shortVersionString>
+      <description><![CDATA[<ul>
+<li>New: <b>Send Feedback</b> (Help &gt; Send Feedback, or the speech bubble on the toolbar). Write what happened, pick tags and how much it matters, and add a screenshot of CedarLogic right from the form. It goes straight to Levi.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.0.2/CedarLogic-4.0.2-x86_64.AppImage"
+        length="16022008"
+        type="application/octet-stream"
+        sparkle:os="linux"
+        cedarlogic:arch="x86_64"
+        cedarlogic:sha256="ae8ba5f72b6679ba4f07797532dfe2af8fedce11b00bf3634ab51d973979a94f"/>
+    </item>
     <!-- item macos 4.0.1 -->
     <item>
       <title>CedarLogic 4.0.1 beta</title>
