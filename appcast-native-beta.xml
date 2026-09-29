@@ -5,6 +5,24 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 748 -->
+    <item>
+      <title>CedarLogic 0.2.5 (build 748) beta</title>
+      <pubDate>Tue, 29 Sep 2026 23:14:22 -0000</pubDate>
+      <sparkle:version>748</sparkle:version>
+      <sparkle:shortVersionString>0.2.5 (build 748) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>The &quot;Simple&quot; interface is gone; everyone gets the CedarLogic window.</li>
+<li>Settings &gt; General has an &quot;Opening files&quot; button to make this app the one that opens .cdl files; .cdl files get their own icon.</li>
+<li>Tidier menus: no Mac window tabs, no Dictation or Emoji items in Edit, and File &gt; Duplicate is now &quot;Duplicate Circuit&quot;.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.5/CedarLogic-Native-0.2.5-mac.zip"
+        length="10485194"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="g9/otqK0YOs/hMtR5iPmhlBHtsvK+1A1FJlDOYBHjzyhwayADXW5tGV6qX8N/afC8a3rjr5/fTlYwRBvSfbUAg=="/>
+    </item>
     <!-- item macos 747 -->
     <item>
       <title>CedarLogic 0.2.4 (build 747) beta</title>
