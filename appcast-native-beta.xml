@@ -5,6 +5,25 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 744 -->
+    <item>
+      <title>CedarLogic 0.2.2 (build 744) beta</title>
+      <pubDate>Tue, 29 Sep 2026 04:31:42 -0000</pubDate>
+      <sparkle:version>744</sparkle:version>
+      <sparkle:shortVersionString>0.2.2 (build 744) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic Native 0.2.2</h3>
+<ul>
+<li><b>Crash reports:</b> the app asks once whether to send a report if it crashes (where it went wrong, never your circuits or name). You can change this in Settings &gt; General.</li>
+<li>The toolbar&#x27;s ••• menu (Minimal toolbar) shows its tooltip.</li>
+<li>The red, yellow and green window buttons are put back in place after moving the window between displays or using full screen.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.2/CedarLogic-Native-0.2.2-mac.zip"
+        length="9956694"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="wmJTU5zSIABBYpGq2xEPc+26/Dy3GtsBdmFEce+o8HbF9b73B9LX2599DDoSxBdDughNyXlL/MxCU+bFRxz2Dg=="/>
+    </item>
     <!-- item macos 740 -->
     <item>
       <title>CedarLogic 0.2.1 (build 740) beta</title>
