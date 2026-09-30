@@ -5,6 +5,23 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates</description>
     <language>en</language>
+    <!-- item macos 755 -->
+    <item>
+      <title>CedarLogic 0.3.2 (build 755)</title>
+      <pubDate>Wed, 30 Sep 2026 16:46:28 -0000</pubDate>
+      <sparkle:version>755</sparkle:version>
+      <sparkle:shortVersionString>0.3.2 (build 755)</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>The welcome (and What&#x27;s New after an update) now comes in on top of your circuit instead of hiding behind it.</li>
+<li>The disk image always shows the Applications folder next to CedarLogic.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.2/CedarLogic-Native-0.3.2-mac.zip"
+        length="11105568"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="TtyXDX+xTWJc8W5d8R7wXvEuB5kWql50QHP/jqa0GVgq2cvLY3Cn+kitJCxloho22mKQWYVsZr9WLL79kX8ZBA=="/>
+    </item>
     <!-- item macos 754 -->
     <item>
       <title>CedarLogic 0.3.1 (build 754)</title>
