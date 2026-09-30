@@ -5,6 +5,23 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 756 -->
+    <item>
+      <title>CedarLogic 0.3.3 (build 756) beta</title>
+      <pubDate>Wed, 30 Sep 2026 20:27:13 -0000</pubDate>
+      <sparkle:version>756</sparkle:version>
+      <sparkle:shortVersionString>0.3.3 (build 756) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Click off Add a Gate, a part&#x27;s settings, the truth table and the other panels to close them. The memory editor asks to save first if you changed values, and Build from Formula asks before throwing away a formula you typed.</li>
+<li>Fixed a crash with some saved parts (My Parts) whose wires ran to something you didn&#x27;t select.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.3/CedarLogic-Native-0.3.3-mac.zip"
+        length="11119703"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="Obr5TKdpB8+G1Qbo+iA3xJNQ10BHS4/w1DM8WmjBKTtxHMHn5vVdzEZ3g4kdwosr9ssfZsrTiRsL7zj+3jIEAA=="/>
+    </item>
     <!-- item macos 755 -->
     <item>
       <title>CedarLogic 0.3.2 (build 755)</title>
@@ -163,25 +180,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="b68Mpz1A9ojj5LjcMR4n2KTGoA7X+9x8KypfjjsAH8oB4rD1tAAWRmgrX4mrHhie8OBA9bjC76Zwz+3lQpfQCg=="/>
-    </item>
-    <!-- item macos 744 -->
-    <item>
-      <title>CedarLogic 0.2.2 (build 744) beta</title>
-      <pubDate>Tue, 29 Sep 2026 04:31:42 -0000</pubDate>
-      <sparkle:version>744</sparkle:version>
-      <sparkle:shortVersionString>0.2.2 (build 744) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic Native 0.2.2</h3>
-<ul>
-<li><b>Crash reports:</b> the app asks once whether to send a report if it crashes (where it went wrong, never your circuits or name). You can change this in Settings &gt; General.</li>
-<li>The toolbar&#x27;s ••• menu (Minimal toolbar) shows its tooltip.</li>
-<li>The red, yellow and green window buttons are put back in place after moving the window between displays or using full screen.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.2/CedarLogic-Native-0.2.2-mac.zip"
-        length="9956694"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="wmJTU5zSIABBYpGq2xEPc+26/Dy3GtsBdmFEce+o8HbF9b73B9LX2599DDoSxBdDughNyXlL/MxCU+bFRxz2Dg=="/>
     </item>
   </channel>
 </rss>
