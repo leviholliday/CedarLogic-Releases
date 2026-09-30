@@ -5,6 +5,23 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates</description>
     <language>en</language>
+    <!-- item macos 756 -->
+    <item>
+      <title>CedarLogic 0.3.3 (build 756)</title>
+      <pubDate>Wed, 30 Sep 2026 20:27:13 -0000</pubDate>
+      <sparkle:version>756</sparkle:version>
+      <sparkle:shortVersionString>0.3.3 (build 756)</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Fixed a crash that could happen when you placed a saved part (My Parts) whose wires ran to something you hadn't selected when you saved it.</li>
+<li>Panels like Add a Gate and a part's settings now close when you click off them.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.3/CedarLogic-Native-0.3.3-mac.zip"
+        length="11119703"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="Obr5TKdpB8+G1Qbo+iA3xJNQ10BHS4/w1DM8WmjBKTtxHMHn5vVdzEZ3g4kdwosr9ssfZsrTiRsL7zj+3jIEAA=="/>
+    </item>
     <!-- item macos 755 -->
     <item>
       <title>CedarLogic 0.3.2 (build 755)</title>
