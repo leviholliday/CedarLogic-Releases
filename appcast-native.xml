@@ -5,6 +5,26 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates</description>
     <language>en</language>
+    <!-- item macos 754 -->
+    <item>
+      <title>CedarLogic 0.3.1 (build 754)</title>
+      <pubDate>Wed, 30 Sep 2026 16:16:01 -0000</pubDate>
+      <sparkle:version>754</sparkle:version>
+      <sparkle:shortVersionString>0.3.1 (build 754)</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 0.3.1 for Mac</h3>
+<ul>
+<li>A new disk image: CedarLogic and Applications side by side, with the arrow between them.</li>
+<li>The very first time CedarLogic opens, it plays a short sound of its own while the launch screen fills, then fades into the welcome.</li>
+<li>Credits in About CedarLogic: CedarLogic began at Cedarville University and was modernized and brought to the Mac by Kieran Klukas; this version was rebuilt and extended with Claude.</li>
+</ul>
+<p>Everything new in 0.3 (Your Circuits, templates, My Parts, Karnaugh maps and more) is in Help › What&#x27;s New in CedarLogic.</p>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.1/CedarLogic-Native-0.3.1-mac.zip"
+        length="11104637"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="jWAxWfOsHg06naDn7ETb1603OdqFxK6/yWxMN35r6oTZ6abITusBCe0qXNEO15bYmkf4AQenV4UOJAgpEup9Ag=="/>
+    </item>
     <!-- item macos 751 -->
     <item>
       <title>CedarLogic 0.3 (build 751)</title>
