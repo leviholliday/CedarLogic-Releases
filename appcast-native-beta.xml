@@ -5,6 +5,27 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 750 -->
+    <item>
+      <title>CedarLogic 0.2.6 (build 750) beta</title>
+      <pubDate>Wed, 30 Sep 2026 05:04:34 -0000</pubDate>
+      <sparkle:version>750</sparkle:version>
+      <sparkle:shortVersionString>0.2.6 (build 750) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Truth tables (T) have tabs: the table, a Karnaugh map for every light with its groups drawn on, and each light&#x27;s simplest sum of products and product of sums. A new look to match the app.</li>
+<li>Edit &gt; Build from Formula: type F = A&#x27;B + AC (or Σm(1,3,5)) and get the switches, gates and lights, wired and labelled. Any gates, NAND only or NOR only.</li>
+<li>The oscilloscope (Cmd-G) copies or saves a timing diagram for lab reports, in colour or black and white.</li>
+<li>Pointing at a wire lights up all of it. Settings &gt; Canvas can also show what it carries (0, 1, floating, conflict).</li>
+<li>Find (Cmd-F): labels, TO/FROM names and parts on every page.</li>
+<li>Cmd-Q asks first (Settings &gt; General &gt; Quitting).</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.6/CedarLogic-Native-0.2.6-mac.zip"
+        length="10781199"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="uGXwLPb8XxeWjdMXKlg2gr61U0bxTwG/k4DOyDyqB7f2U5YYJNZquvORjVNgN6MEYVjMWviV1Q3owvszV+fzCw=="/>
+    </item>
     <!-- item macos 748 -->
     <item>
       <title>CedarLogic 0.2.5 (build 748) beta</title>
