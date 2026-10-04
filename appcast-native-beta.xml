@@ -5,6 +5,23 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 758 -->
+    <item>
+      <title>CedarLogic 0.3.4 (build 758) beta</title>
+      <pubDate>Sun, 04 Oct 2026 15:40:05 -0000</pubDate>
+      <sparkle:version>758</sparkle:version>
+      <sparkle:shortVersionString>0.3.4 (build 758) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 0.3.4</h3>
+<ul>
+<li><b>Build from Formula, NOR only:</b> a negated product such as (AB)&#x27; is now built correctly. Before, it came out as a single NOR gate, (A + B)&#x27;, so the circuit didn&#x27;t match the formula.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.4/CedarLogic-Native-0.3.4-mac.zip"
+        length="11119247"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="6wYEWrENlcHobeZWalgZzZm8ThvqrlN0xJ0NtIrCHwCqagC2DLXGhBWZggzPrLLC908YHn9IXkeko3r+aKuvDw=="/>
+    </item>
     <!-- item macos 756 -->
     <item>
       <title>CedarLogic 0.3.3 (build 756)</title>
@@ -163,23 +180,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="p1My3Joy/V0ZfPN0R0ENK71TWZV4xCgRChTN2nL9qvm8OlvdY1uB8JDFq3tV6QEfMmuXAJM+rNR+ksEdlFkkAA=="/>
-    </item>
-    <!-- item macos 745 -->
-    <item>
-      <title>CedarLogic 0.2.3 (build 745) beta</title>
-      <pubDate>Tue, 29 Sep 2026 04:44:47 -0000</pubDate>
-      <sparkle:version>745</sparkle:version>
-      <sparkle:shortVersionString>0.2.3 (build 745) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic Native 0.2.3</h3>
-<ul>
-<li>Fixed: the green window button could start out of place until you clicked the window.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.3/CedarLogic-Native-0.2.3-mac.zip"
-        length="9963574"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="b68Mpz1A9ojj5LjcMR4n2KTGoA7X+9x8KypfjjsAH8oB4rD1tAAWRmgrX4mrHhie8OBA9bjC76Zwz+3lQpfQCg=="/>
     </item>
   </channel>
 </rss>
