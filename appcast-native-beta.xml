@@ -7,10 +7,10 @@
     <language>en</language>
     <!-- item macos 758 -->
     <item>
-      <title>CedarLogic 0.3.4 (build 758) beta</title>
+      <title>CedarLogic 0.3.4 (build 758)</title>
       <pubDate>Sun, 04 Oct 2026 15:40:05 -0000</pubDate>
       <sparkle:version>758</sparkle:version>
-      <sparkle:shortVersionString>0.3.4 (build 758) beta</sparkle:shortVersionString>
+      <sparkle:shortVersionString>0.3.4 (build 758)</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>CedarLogic 0.3.4</h3>
 <ul>

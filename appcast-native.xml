@@ -5,6 +5,23 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates</description>
     <language>en</language>
+    <!-- item macos 758 -->
+    <item>
+      <title>CedarLogic 0.3.4 (build 758)</title>
+      <pubDate>Sun, 04 Oct 2026 15:40:05 -0000</pubDate>
+      <sparkle:version>758</sparkle:version>
+      <sparkle:shortVersionString>0.3.4 (build 758)</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 0.3.4</h3>
+<ul>
+<li><b>Build from Formula, NOR only:</b> a negated product such as (AB)&#x27; is now built correctly. Before, it came out as a single NOR gate, (A + B)&#x27;, so the circuit didn&#x27;t match the formula.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.4/CedarLogic-Native-0.3.4-mac.zip"
+        length="11119247"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="6wYEWrENlcHobeZWalgZzZm8ThvqrlN0xJ0NtIrCHwCqagC2DLXGhBWZggzPrLLC908YHn9IXkeko3r+aKuvDw=="/>
+    </item>
     <!-- item macos 756 -->
     <item>
       <title>CedarLogic 0.3.3 (build 756)</title>
