@@ -5,6 +5,25 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 779 -->
+    <item>
+      <title>CedarLogic 0.3.6 (build 779) beta</title>
+      <pubDate>Mon, 05 Oct 2026 03:10:04 -0000</pubDate>
+      <sparkle:version>779</sparkle:version>
+      <sparkle:shortVersionString>0.3.6 (build 779) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 0.3.6</h3>
+<ul>
+<li><b>Full Rearrange is fast again:</b> big pages tidy in about a second instead of half a minute, with fewer bends and crossings.</li>
+<li><b>Lab reports:</b> a heading always stays with what&#x27;s under it, and a long list of labels stays a tidy list.</li>
+<li><b>Truth tables:</b> a FROM label or a ground no longer makes a page look like it has clocks or flip-flops.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.6/CedarLogic-Native-0.3.6-mac.zip"
+        length="11314497"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="+91uBCURx8XajnZD1gsEZd5HN8OB/58krFKrzNUqBQdJzvq1yrGbLOCw3if0Axpnj996/EzkthwxIA8cbgtqAg=="/>
+    </item>
     <!-- item macos 769 -->
     <item>
       <title>CedarLogic 0.3.5 (build 769) beta</title>
@@ -166,24 +185,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="uGXwLPb8XxeWjdMXKlg2gr61U0bxTwG/k4DOyDyqB7f2U5YYJNZquvORjVNgN6MEYVjMWviV1Q3owvszV+fzCw=="/>
-    </item>
-    <!-- item macos 748 -->
-    <item>
-      <title>CedarLogic 0.2.5 (build 748) beta</title>
-      <pubDate>Tue, 29 Sep 2026 23:14:22 -0000</pubDate>
-      <sparkle:version>748</sparkle:version>
-      <sparkle:shortVersionString>0.2.5 (build 748) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul>
-<li>The &quot;Simple&quot; interface is gone; everyone gets the CedarLogic window.</li>
-<li>Settings &gt; General has an &quot;Opening files&quot; button to make this app the one that opens .cdl files; .cdl files get their own icon.</li>
-<li>Tidier menus: no Mac window tabs, no Dictation or Emoji items in Edit, and File &gt; Duplicate is now &quot;Duplicate Circuit&quot;.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.2.5/CedarLogic-Native-0.2.5-mac.zip"
-        length="10485194"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="g9/otqK0YOs/hMtR5iPmhlBHtsvK+1A1FJlDOYBHjzyhwayADXW5tGV6qX8N/afC8a3rjr5/fTlYwRBvSfbUAg=="/>
     </item>
   </channel>
 </rss>
