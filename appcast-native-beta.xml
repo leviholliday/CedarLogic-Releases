@@ -5,6 +5,27 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 816 -->
+    <item>
+      <title>CedarLogic 0.3.9 (build 816) beta</title>
+      <pubDate>Mon, 05 Oct 2026 22:33:43 -0000</pubDate>
+      <sparkle:version>816</sparkle:version>
+      <sparkle:shortVersionString>0.3.9 (build 816) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.9 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.9-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>Sync fixes.</b> After the synced copy is reset (Start Over, or a reset on the website), every device shows up in Settings › Sync › Devices again right away, instead of a day later or not at all. And the &quot;synced circuits are damaged&quot; note now goes away once those circuits are gone from the synced copy.</li>
+<li>From 0.3.8: <b>link this Mac by scanning, no typing.</b> Settings › Sync › I Have a Code shows a QR code. On a phone that syncs, open CedarLogic › Your Circuits › Sync › Add a Device and scan it, then press Link here.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.9/CedarLogic-Native-0.3.9-mac.zip"
+        length="12050674"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="GFMhhlQn8/lEiW+8uRmz0QMmkbX33nuGC/iYvzDJvYC++4qWka4F8W8j0ht4ad5y7u46L6P9+V3Yh1OS0owCCg=="/>
+    </item>
     <!-- item macos 813 -->
     <item>
       <title>CedarLogic 0.3.8 (build 813) beta</title>
@@ -132,26 +153,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="TtyXDX+xTWJc8W5d8R7wXvEuB5kWql50QHP/jqa0GVgq2cvLY3Cn+kitJCxloho22mKQWYVsZr9WLL79kX8ZBA=="/>
-    </item>
-    <!-- item macos 754 -->
-    <item>
-      <title>CedarLogic 0.3.1 (build 754)</title>
-      <pubDate>Wed, 30 Sep 2026 16:16:01 -0000</pubDate>
-      <sparkle:version>754</sparkle:version>
-      <sparkle:shortVersionString>0.3.1 (build 754)</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic 0.3.1 for Mac</h3>
-<ul>
-<li>A new disk image: CedarLogic and Applications side by side, with the arrow between them.</li>
-<li>The very first time CedarLogic opens, it plays a short sound of its own while the launch screen fills, then fades into the welcome.</li>
-<li>Credits in About CedarLogic: CedarLogic began at Cedarville University and was modernized and brought to the Mac by Kieran Klukas; this version was rebuilt and extended with Claude.</li>
-</ul>
-<p>Everything new in 0.3 (Your Circuits, templates, My Parts, Karnaugh maps and more) is in Help › What&#x27;s New in CedarLogic.</p>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.1/CedarLogic-Native-0.3.1-mac.zip"
-        length="11104637"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="jWAxWfOsHg06naDn7ETb1603OdqFxK6/yWxMN35r6oTZ6abITusBCe0qXNEO15bYmkf4AQenV4UOJAgpEup9Ag=="/>
     </item>
   </channel>
 </rss>
