@@ -5,6 +5,26 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 813 -->
+    <item>
+      <title>CedarLogic 0.3.8 (build 813) beta</title>
+      <pubDate>Mon, 05 Oct 2026 18:32:19 -0000</pubDate>
+      <sparkle:version>813</sparkle:version>
+      <sparkle:shortVersionString>0.3.8 (build 813) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.8 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.8-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>Link this Mac to your sync by scanning, no typing.</b> Settings › Sync › I Have a Code now shows a QR code. On a phone that syncs, open CedarLogic › Your Circuits › Sync › Add a Device and scan it: the phone sends this Mac your sync code (end-to-end encrypted), and you press Link. Typing or pasting the code still works too.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.8/CedarLogic-Native-0.3.8-mac.zip"
+        length="12044360"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="VGsU1NBGoPgttI3xFVXGp0eghzRzuS7ahYRQyfz9V+6cUhTNM5MCXi1dojcFvvRstyTunTdIP9attqnk/EyZAw=="/>
+    </item>
     <!-- item macos 802 -->
     <item>
       <title>CedarLogic 0.3.7 (build 802) beta</title>
@@ -132,56 +152,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="jWAxWfOsHg06naDn7ETb1603OdqFxK6/yWxMN35r6oTZ6abITusBCe0qXNEO15bYmkf4AQenV4UOJAgpEup9Ag=="/>
-    </item>
-    <!-- item macos 751 -->
-    <item>
-      <title>CedarLogic 0.3 (build 751)</title>
-      <pubDate>Wed, 30 Sep 2026 15:17:37 -0000</pubDate>
-      <sparkle:version>751</sparkle:version>
-      <sparkle:shortVersionString>0.3 (build 751)</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic 0.3 for Mac</h3>
-<p>A new name (just <b>CedarLogic</b>), a new icon, and a lot more inside. After you update, a short <b>What&#x27;s New</b> tour walks you through all of it (Help ▸ What&#x27;s New in CedarLogic brings it back).</p>
-<h3>Your circuits, in one place</h3>
-<ul>
-<li>Every circuit lives in <b>Your Circuits (⌘O)</b> and saves itself as you go. Open, rename and delete from there, or rename the one you&#x27;re in from its name at the top.</li>
-<li>Opening a .cdl file brings in a copy to work on; <b>File ▸ Export as CedarLogic File…</b> gets one out.</li>
-<li>Version history only keeps a version when the circuit itself changed, not every time a switch flips.</li>
-</ul>
-<h3>Start ahead</h3>
-<ul>
-<li><b>File ▸ New from Template…</b>: a Lab Page with your name on it, a 4-bit counter, a 7-segment decoder starter, or your own (<b>Save as Template…</b>). Settings ▸ General can start every new circuit from one.</li>
-<li><b>My Parts</b>: select some gates, <b>Edit ▸ Save as Part…</b>, name it. Drag it from the side panel or find it with <b>A</b>.</li>
-</ul>
-<h3>Check your work</h3>
-<ul>
-<li>The truth table (<b>T</b>) has tabs: the table, a <b>Karnaugh map</b> for each light, and the simplest <b>sum of products</b> and <b>product of sums</b>.</li>
-<li><b>Edit ▸ Build from Formula…</b> turns F = AB + C&#x27; (or Σm(…)) into wired, labelled gates.</li>
-<li><b>Find (⌘F)</b> searches labels, TO/FROM names and parts on every page.</li>
-</ul>
-<h3>See it think</h3>
-<ul>
-<li>Point at a wire and every branch of it lights up (Settings ▸ Canvas can show what it carries).</li>
-<li>Share the oscilloscope (<b>⌘G</b>) as a timing diagram: copy, PNG or PDF, in colour or black and white.</li>
-</ul>
-<h3>A new look</h3>
-<ul>
-<li><b>CedarLogic green</b>, the icon&#x27;s colour, is the app&#x27;s colour now (Settings ▸ Appearance ▸ App colour has the others).</li>
-<li>A new welcome and guided tour, and cleaner editors for gate settings and memory (double-click a gate or a RAM; Return is Done).</li>
-<li>⌘Q asks first (Settings ▸ General ▸ Quitting), and <b>Send Feedback</b> (the speech bubble) takes a note, a screenshot or a short recording.</li>
-</ul>
-<h3>Fixes</h3>
-<ul>
-<li>The first ⌘A, ⌘N or ⌘Q after launch works; the Edit menu no longer flickers.</li>
-<li>Dropping certain pasted circuits no longer crashes.</li>
-<li>Your Circuits&#x27; Delete and Rename work every time, and the highlight stays on the circuit you chose.</li>
-<li>Circuit windows open on the screen you launched from.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3/CedarLogic-Native-0.3-mac.zip"
-        length="10955290"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="tKY/jONR/2N9GffNLT4r5xGpijgPLW10hjP5tYZLvdQ6DCYf9GRJfy+414DgH0WirZECFmERdmpVldmKm757BQ=="/>
     </item>
   </channel>
 </rss>
