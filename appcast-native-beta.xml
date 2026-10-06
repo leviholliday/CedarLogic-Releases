@@ -5,6 +5,28 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 818 -->
+    <item>
+      <title>CedarLogic 0.3.10 (build 818) beta</title>
+      <pubDate>Tue, 06 Oct 2026 04:42:05 -0000</pubDate>
+      <sparkle:version>818</sparkle:version>
+      <sparkle:shortVersionString>0.3.10 (build 818) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.10 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.10-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>Quitting works again with sync on.</b> After the &quot;Quit CedarLogic?&quot; question, the app could get stuck and never close. It now sends your last changes and quits.</li>
+<li>From 0.3.9: after the synced copy is reset, every device shows up in Settings › Sync › Devices again right away, and the &quot;synced circuits are damaged&quot; note clears.</li>
+<li>From 0.3.8: link this Mac by scanning, no typing. Settings › Sync › I Have a Code shows a QR code: scan it with CedarLogic on a phone that syncs (Your Circuits › Sync › Add a Device), then press Link here.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.10/CedarLogic-Native-0.3.10-mac.zip"
+        length="12052570"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="3WJAtWjEHJi0uy7KA/bLg60FnBNAPKObSLJvuFJ5UJ0QhC4XOXeYcCxKWQMj9Sy3CdlZ2AnVQYpPE+XPm8LYAw=="/>
+    </item>
     <!-- item macos 816 -->
     <item>
       <title>CedarLogic 0.3.9 (build 816) beta</title>
@@ -136,23 +158,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="Obr5TKdpB8+G1Qbo+iA3xJNQ10BHS4/w1DM8WmjBKTtxHMHn5vVdzEZ3g4kdwosr9ssfZsrTiRsL7zj+3jIEAA=="/>
-    </item>
-    <!-- item macos 755 -->
-    <item>
-      <title>CedarLogic 0.3.2 (build 755)</title>
-      <pubDate>Wed, 30 Sep 2026 16:46:28 -0000</pubDate>
-      <sparkle:version>755</sparkle:version>
-      <sparkle:shortVersionString>0.3.2 (build 755)</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul>
-<li>The welcome (and What&#x27;s New after an update) now comes in on top of your circuit instead of hiding behind it.</li>
-<li>The disk image always shows the Applications folder next to CedarLogic.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.2/CedarLogic-Native-0.3.2-mac.zip"
-        length="11105568"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="TtyXDX+xTWJc8W5d8R7wXvEuB5kWql50QHP/jqa0GVgq2cvLY3Cn+kitJCxloho22mKQWYVsZr9WLL79kX8ZBA=="/>
     </item>
   </channel>
 </rss>
