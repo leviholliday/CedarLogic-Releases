@@ -5,6 +5,27 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 820 -->
+    <item>
+      <title>CedarLogic 0.3.11 (build 820) beta</title>
+      <pubDate>Tue, 06 Oct 2026 06:45:06 -0000</pubDate>
+      <sparkle:version>820</sparkle:version>
+      <sparkle:shortVersionString>0.3.11 (build 820) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.11 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.11-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>A template for every flip-flop and latch.</b> File › New from Template has a new Flip-Flops and Latches section: D, D falling edge, D with clock enable, J-K, J-K falling edge, T, an SR latch and a gated D latch. Each one is ready to run, with a clock, a switch on every input and lights on Q and Q&#x27;. The PRE&#x27; and CLR&#x27; switches start on because they&#x27;re active low: turn one off to set or clear Q at once.</li>
+<li>From 0.3.10: quitting works again with sync on.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.11/CedarLogic-Native-0.3.11-mac.zip"
+        length="12063065"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="psXFSISHrE5grmjIyhl5FHT6Fq+XKyQ66fy3Idlre0gf6EyC9dVtjOtzlqpF/JGzpUtDnRl3gXszzU9hx1FtBw=="/>
+    </item>
     <!-- item macos 818 -->
     <item>
       <title>CedarLogic 0.3.10 (build 818) beta</title>
@@ -141,23 +162,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="6wYEWrENlcHobeZWalgZzZm8ThvqrlN0xJ0NtIrCHwCqagC2DLXGhBWZggzPrLLC908YHn9IXkeko3r+aKuvDw=="/>
-    </item>
-    <!-- item macos 756 -->
-    <item>
-      <title>CedarLogic 0.3.3 (build 756)</title>
-      <pubDate>Wed, 30 Sep 2026 20:27:13 -0000</pubDate>
-      <sparkle:version>756</sparkle:version>
-      <sparkle:shortVersionString>0.3.3 (build 756)</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul>
-<li>Fixed a crash that could happen when you placed a saved part (My Parts) whose wires ran to something you hadn't selected when you saved it.</li>
-<li>Panels like Add a Gate and a part's settings now close when you click off them.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.3/CedarLogic-Native-0.3.3-mac.zip"
-        length="11119703"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="Obr5TKdpB8+G1Qbo+iA3xJNQ10BHS4/w1DM8WmjBKTtxHMHn5vVdzEZ3g4kdwosr9ssfZsrTiRsL7zj+3jIEAA=="/>
     </item>
   </channel>
 </rss>
