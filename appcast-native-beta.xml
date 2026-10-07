@@ -5,6 +5,30 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 871 -->
+    <item>
+      <title>CedarLogic 0.3.13 (build 871) beta</title>
+      <pubDate>Wed, 07 Oct 2026 08:04:38 -0000</pubDate>
+      <sparkle:version>871</sparkle:version>
+      <sparkle:shortVersionString>0.3.13 (build 871) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.13 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.13-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>Presenter mode shows what you&#x27;re doing.</b> Your audience now sees your mouse pointer (with a ring when you click), what you select, the drag-select box, the part or wire you&#x27;re moving, and wires being connected. If you&#x27;re building in the normal editing view, they see the editing view. They only see Simulation View when you&#x27;re in Simulation View.</li>
+<li><b>A pulse button as the clock.</b> In New from Template, flip-flops and registers can use a Single-Pulse Generator button as their Clock: click it to clock the circuit once.</li>
+<li><b>Drawing width is easier to find.</b> The drawing bar has a Width control, and 1, 2 and 3 pick thin, medium and thick. A plain trackpad has no pressure, so lines are a steady medium width.</li>
+<li><b>Never stuck after opening a circuit.</b> Questions from Your Circuits can no longer get stuck behind a hidden window, a newly opened circuit takes the keyboard at once, and View › Make This Window Editable clears Lock, Draw, Simulation View and any stuck state.</li>
+<li>From 0.3.12: drawing, notes, Step Clock (K), Predict and Projector mode, Lock in Place, Check My Circuit for clocked circuits, timing worksheets and new templates.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.13/CedarLogic-Native-0.3.13-mac.zip"
+        length="13199795"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="G/YA3nBr1evJMAdvgp5UUioCNYXaLOmDBvWjOQEkxZM3szypi9TOSOj/CejFkFEvVeJfx2r70RJq9K9HKzKuCQ=="/>
+    </item>
     <!-- item macos 866 -->
     <item>
       <title>CedarLogic 0.3.12 (build 866) beta</title>
@@ -156,26 +180,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="+91uBCURx8XajnZD1gsEZd5HN8OB/58krFKrzNUqBQdJzvq1yrGbLOCw3if0Axpnj996/EzkthwxIA8cbgtqAg=="/>
-    </item>
-    <!-- item macos 769 -->
-    <item>
-      <title>CedarLogic 0.3.5 (build 769) beta</title>
-      <pubDate>Sun, 04 Oct 2026 21:01:50 -0000</pubDate>
-      <sparkle:version>769</sparkle:version>
-      <sparkle:shortVersionString>0.3.5 (build 769) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic 0.3.5</h3>
-<ul>
-<li><b>Check My Circuit (⇧T):</b> type the formula or truth table your assignment asks for, and CedarLogic tells you whether your circuit matches, with the wrong rows in red.</li>
-<li><b>Export Lab Report:</b> File › Export Lab Report… makes one PDF with your name, the circuit, its truth table, Karnaugh maps and the timing diagram.</li>
-<li><b>Share Link:</b> File › Share Link… copies a link that opens your circuit in CedarLogic Online. Links from the website can open straight in the app.</li>
-<li><b>A smarter Full Rearrange:</b> Tidy Up keeps groups of parts together, keeps your labels in order and runs straight wires straight.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.5/CedarLogic-Native-0.3.5-mac.zip"
-        length="11309640"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="7/U+Ssjs6x8HHr2CbWA8Jsso43GdyQZZozHef0Sohaujg4Vci40dWltWzeBvY2+7wUuxize4q+LRsDEUwHnCAQ=="/>
     </item>
   </channel>
 </rss>
