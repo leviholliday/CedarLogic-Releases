@@ -5,6 +5,37 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 866 -->
+    <item>
+      <title>CedarLogic 0.3.12 (build 866) beta</title>
+      <pubDate>Wed, 07 Oct 2026 06:12:48 -0000</pubDate>
+      <sparkle:version>866</sparkle:version>
+      <sparkle:shortVersionString>0.3.12 (build 866) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.12 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.12-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new (for teaching)</h3>
+<ul>
+<li><b>Draw on the circuit.</b> Press the pencil in the toolbar (or ⌥⌘P) and draw right on your circuit with a pen, highlighter or eraser. Drawings stay pinned to the circuit, are saved with it, and can be shown or hidden (⇧⌘H). Mouse, trackpad and Wacom pens all work; a Wacom pen&#x27;s pressure changes the line width.</li>
+<li><b>Presenter mode (⇧⌘P).</b> With a projector or second screen plugged in, View › Present On puts a clean full-screen view of your circuit on it, following your editor live, so you can keep working on your laptop. With one screen, Present in This Window goes full-screen.</li>
+<li><b>Notes (⌥⌘N).</b> A notes pane for each circuit, saved with it. They can go in your lab report.</li>
+<li><b>Step Clock (K).</b> A clock can be set to move only when you step it, one full cycle at a time. The flip-flop templates use it.</li>
+<li><b>Predict, then reveal</b> and <b>Projector mode</b> in Simulation View, for lectures.</li>
+<li><b>Lock in Place.</b> Lock the starter parts so students can only wire between them.</li>
+<li><b>Check My Circuit for clocked circuits:</b> counters and state machines, with the first wrong clock step shown.</li>
+<li><b>Timing diagram worksheets:</b> leave signals blank for students to fill in.</li>
+<li><b>New templates:</b> every flip-flop and latch, five registers, and four &quot;what&#x27;s wrong here?&quot; circuits.</li>
+<li>Drawing and notes are saved in the circuit file. Older versions of CedarLogic open those files, but drop the drawing and notes if they save.</li>
+</ul>
+<h3>Please try</h3>
+<p>Presenter mode on a second screen, drawing with a Wacom pen or trackpad, and everything above.</p>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.12/CedarLogic-Native-0.3.12-mac.zip"
+        length="13156757"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="EH72kwpi8Ma7GyFadP0yLmXUOHqtURpsvIWQfl6L9z+iMUj5V/yfFqTeo8JCoBBsxA9JAWQ2iuTAsGZgWVeKDw=="/>
+    </item>
     <!-- item macos 820 -->
     <item>
       <title>CedarLogic 0.3.11 (build 820) beta</title>
@@ -145,23 +176,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="7/U+Ssjs6x8HHr2CbWA8Jsso43GdyQZZozHef0Sohaujg4Vci40dWltWzeBvY2+7wUuxize4q+LRsDEUwHnCAQ=="/>
-    </item>
-    <!-- item macos 758 -->
-    <item>
-      <title>CedarLogic 0.3.4 (build 758)</title>
-      <pubDate>Sun, 04 Oct 2026 15:40:05 -0000</pubDate>
-      <sparkle:version>758</sparkle:version>
-      <sparkle:shortVersionString>0.3.4 (build 758)</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic 0.3.4</h3>
-<ul>
-<li><b>Build from Formula, NOR only:</b> a negated product such as (AB)&#x27; is now built correctly. Before, it came out as a single NOR gate, (A + B)&#x27;, so the circuit didn&#x27;t match the formula.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.4/CedarLogic-Native-0.3.4-mac.zip"
-        length="11119247"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="6wYEWrENlcHobeZWalgZzZm8ThvqrlN0xJ0NtIrCHwCqagC2DLXGhBWZggzPrLLC908YHn9IXkeko3r+aKuvDw=="/>
     </item>
   </channel>
 </rss>
