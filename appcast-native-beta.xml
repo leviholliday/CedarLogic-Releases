@@ -5,6 +5,28 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 887 -->
+    <item>
+      <title>CedarLogic 0.3.16 (build 887) beta</title>
+      <pubDate>Thu, 08 Oct 2026 22:20:01 -0000</pubDate>
+      <sparkle:version>887</sparkle:version>
+      <sparkle:shortVersionString>0.3.16 (build 887) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.16 (beta)</h3>
+<p>Update from inside the app (Help › Check for Updates). This beta has no disk image download.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>Page links.</b> Choose which pages&#x27; TO/FROM links connect: Connect All / Disconnect All Pages in the File menu, right-click a page tab › Connect to… to group pages, and coloured dots on tabs that share links. Settings › Canvas › New pages sets the default.</li>
+<li><b>Straighten and Tidy Up fixes.</b> They no longer drop a connection on save, never leave a wire short of its pin, draw a split as one connected wire with a dot, and cross wires a little less. Big pages straighten about twice as fast.</li>
+<li><b>Export Image, refreshed.</b> Preview first, with Copy Image, Save and Share. &quot;Match Window&quot; exports exactly what you see, dark mode included. Copied pictures now paste at the right size.</li>
+<li><b>Class pass.</b> Students can make a printable pass that brings them back to the class on any device; teachers can see and cancel passes.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.16/CedarLogic-Native-0.3.16-mac.zip"
+        length="13838550"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="O+6dmjr8A3Msup4gKwhytVRCENM2ETJg99+WuQgRb3KK00p5NtcAPT4Y3pqm8VMAjFDS6U9uN+mj/O08j3FNBw=="/>
+    </item>
     <!-- item macos 876 -->
     <item>
       <title>CedarLogic 0.3.15 (build 876) beta</title>
@@ -171,26 +193,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="GFMhhlQn8/lEiW+8uRmz0QMmkbX33nuGC/iYvzDJvYC++4qWka4F8W8j0ht4ad5y7u46L6P9+V3Yh1OS0owCCg=="/>
-    </item>
-    <!-- item macos 813 -->
-    <item>
-      <title>CedarLogic 0.3.8 (build 813) beta</title>
-      <pubDate>Mon, 05 Oct 2026 18:32:19 -0000</pubDate>
-      <sparkle:version>813</sparkle:version>
-      <sparkle:shortVersionString>0.3.8 (build 813) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.8 (beta)</h3>
-<h3>Download</h3>
-<p><b><code>CedarLogic-0.3.8-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
-<h3>What&#x27;s new</h3>
-<ul>
-<li><b>Link this Mac to your sync by scanning, no typing.</b> Settings › Sync › I Have a Code now shows a QR code. On a phone that syncs, open CedarLogic › Your Circuits › Sync › Add a Device and scan it: the phone sends this Mac your sync code (end-to-end encrypted), and you press Link. Typing or pasting the code still works too.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.8/CedarLogic-Native-0.3.8-mac.zip"
-        length="12044360"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="VGsU1NBGoPgttI3xFVXGp0eghzRzuS7ahYRQyfz9V+6cUhTNM5MCXi1dojcFvvRstyTunTdIP9attqnk/EyZAw=="/>
     </item>
   </channel>
 </rss>
