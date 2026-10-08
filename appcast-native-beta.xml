@@ -5,6 +5,30 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 876 -->
+    <item>
+      <title>CedarLogic 0.3.15 (build 876) beta</title>
+      <pubDate>Thu, 08 Oct 2026 08:54:11 -0000</pubDate>
+      <sparkle:version>876</sparkle:version>
+      <sparkle:shortVersionString>0.3.15 (build 876) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.15 (beta)</h3>
+<p>Update from inside the app (Help › Check for Updates). This beta has no disk image download.</p>
+<h3>What&#x27;s new: Classroom, reworked (File › Classroom)</h3>
+<ul>
+<li><b>Share a circuit with your class.</b> Students get &quot;Your teacher shared …&quot; and open it as their own copy to play with. Share an update and they can open the new version without losing theirs.</li>
+<li><b>Class examples.</b> Add circuits to your class&#x27;s examples, sorted by topic, and release each one when you&#x27;re ready. Students can open released ones anytime.</li>
+<li><b>Simpler hand-in.</b> An assignment opens with Instructions, Check and Hand In. Every attempt is kept for the teacher.</li>
+<li><b>Check against your solution.</b> Use a solution circuit as the answer key: it compares what the circuits do, not where the parts are.</li>
+<li><b>Your classes on all your devices</b> when Sync is on.</li>
+<li>The prediction poll is gone. Show on Projector closes with Escape. The recovery sheet prints properly.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.15/CedarLogic-Native-0.3.15-mac.zip"
+        length="13757434"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="cwPeGz9dG9pfpq805aIlbwm50CtnwSPcj1sJBrSuPKqPJaafDhYTSrNtmWn66uS6MLhdOpnT3OWpHkiqGzLHDA=="/>
+    </item>
     <!-- item macos 874 -->
     <item>
       <title>CedarLogic 0.3.14 (build 874) beta</title>
@@ -167,24 +191,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="VGsU1NBGoPgttI3xFVXGp0eghzRzuS7ahYRQyfz9V+6cUhTNM5MCXi1dojcFvvRstyTunTdIP9attqnk/EyZAw=="/>
-    </item>
-    <!-- item macos 802 -->
-    <item>
-      <title>CedarLogic 0.3.7 (build 802) beta</title>
-      <pubDate>Mon, 05 Oct 2026 08:40:37 -0000</pubDate>
-      <sparkle:version>802</sparkle:version>
-      <sparkle:shortVersionString>0.3.7 (build 802) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic 0.3.7</h3>
-<ul>
-<li><b>Sync Your Circuits across your devices.</b> Settings › Sync › Turn On Sync gives you a sync code (and a QR code). Enter it on your other Mac, your Raspberry Pi, your Windows PC or CedarLogic Online on your phone, and your circuits follow you. They&#x27;re end-to-end encrypted: the website stores them but can&#x27;t read them.</li>
-<li>When two devices change the same circuit, nothing is lost: the newer one becomes the circuit and the other is kept in Version History.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.7/CedarLogic-Native-0.3.7-mac.zip"
-        length="11950184"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="iASgZFhwb/D9oIAIoU7HIkIH1Hi0Xc6JmRWYZTaifgnvT3Gc/02DPJ59pSM33T4MU/mqgfYPMHxMulk2mtw2BQ=="/>
     </item>
   </channel>
 </rss>
