@@ -5,6 +5,30 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 897 -->
+    <item>
+      <title>CedarLogic 0.3.17 (build 897) beta</title>
+      <pubDate>Fri, 09 Oct 2026 06:10:43 -0000</pubDate>
+      <sparkle:version>897</sparkle:version>
+      <sparkle:shortVersionString>0.3.17 (build 897) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.17 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.17-Mac.dmg</code></b> below, or update from inside the app (Help › Check for Updates). macOS 14 Sonoma or later, Apple silicon. The first time you open a downloaded copy, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<ul>
+<li><b>More examples, with the inside shown.</b> File › New from Template has new two-page examples: page 1 uses the part, page 2 builds it from gates (D, J-K and T flip-flops, 4-bit register, 3-bit counter, 4-bit adder, 2-to-4 decoder, 4-to-1 mux), plus a comparator, parity generator, edge detector and SR latch with enable.</li>
+<li><b>Click the clock to step it.</b> With &quot;Only on Step Clock&quot; on, clicking the clock part steps it. Settings › Toolbar › Step Clock shows or hides its toolbar button.</li>
+<li><b>Export Image follows your theme.</b> &quot;Match Window&quot; uses your current colours, grid and accent.</li>
+<li><b>Sync:</b> remove old devices from Settings › Sync › Devices, and your name now syncs across devices.</li>
+<li><b>Classroom:</b> share or post circuits from your own library (⌘O), and schedule class examples to release at a date and time.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.17/CedarLogic-Native-0.3.17-mac.zip"
+        length="13981835"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="4Eou9JUhYJV8DxfmUsYPdHatcANScUH6XxJdolMGABws3Ex1JasRHTuM6ke+zq08gwiWI2csBBxn7TWiCN5MBA=="/>
+    </item>
     <!-- item macos 887 -->
     <item>
       <title>CedarLogic 0.3.16 (build 887) beta</title>
@@ -172,27 +196,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="3WJAtWjEHJi0uy7KA/bLg60FnBNAPKObSLJvuFJ5UJ0QhC4XOXeYcCxKWQMj9Sy3CdlZ2AnVQYpPE+XPm8LYAw=="/>
-    </item>
-    <!-- item macos 816 -->
-    <item>
-      <title>CedarLogic 0.3.9 (build 816) beta</title>
-      <pubDate>Mon, 05 Oct 2026 22:33:43 -0000</pubDate>
-      <sparkle:version>816</sparkle:version>
-      <sparkle:shortVersionString>0.3.9 (build 816) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.9 (beta)</h3>
-<h3>Download</h3>
-<p><b><code>CedarLogic-0.3.9-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
-<h3>What&#x27;s new</h3>
-<ul>
-<li><b>Sync fixes.</b> After the synced copy is reset (Start Over, or a reset on the website), every device shows up in Settings › Sync › Devices again right away, instead of a day later or not at all. And the &quot;synced circuits are damaged&quot; note now goes away once those circuits are gone from the synced copy.</li>
-<li>From 0.3.8: <b>link this Mac by scanning, no typing.</b> Settings › Sync › I Have a Code shows a QR code. On a phone that syncs, open CedarLogic › Your Circuits › Sync › Add a Device and scan it, then press Link here.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.9/CedarLogic-Native-0.3.9-mac.zip"
-        length="12050674"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="GFMhhlQn8/lEiW+8uRmz0QMmkbX33nuGC/iYvzDJvYC++4qWka4F8W8j0ht4ad5y7u46L6P9+V3Yh1OS0owCCg=="/>
     </item>
   </channel>
 </rss>
