@@ -5,6 +5,32 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 953 -->
+    <item>
+      <title>CedarLogic 0.3.18 (build 953) beta</title>
+      <pubDate>Tue, 20 Oct 2026 15:49:30 -0000</pubDate>
+      <sparkle:version>953</sparkle:version>
+      <sparkle:shortVersionString>0.3.18 (build 953) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.18 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.18-Mac.dmg</code></b> below, or update from inside the app (Help › Check for Updates). macOS 14 Sonoma or later, Apple silicon. The first time you open a downloaded copy, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<p>A stability release: a week of automated testing found and fixed the bugs that showed up over a long session.</p>
+<ul>
+<li><b>Closed windows stop running.</b> A closed circuit window kept simulating in the background until you quit, so the app got slower the more circuits you opened.</li>
+<li><b>No more crash from a damaged file.</b> A file with one damaged wire opens with a note instead of crashing, even when it is the circuit the app reopens at launch.</li>
+<li><b>Wires stay put.</b> Fixed wires left off their pins after Escape mid-drag, a pin that could end up on two wires (and crash after a delete), Undo and Redo giving wires a different shape, wires on rotated parts splitting in two, pasted wires coming apart, and Tidy Up turning a RAM&#x27;s wire into two dots.</li>
+<li><b>Your work is saved.</b> A setting changed in a part&#x27;s Settings sheet is now saved and can be undone, and Undo and Redo now autosave like any other edit.</li>
+<li><b>Smoother.</b> The oscilloscope no longer redraws the whole window while it records, and split view&#x27;s two sides stay in step when you run or pause.</li>
+<li><b>Smaller fixes.</b> Option-Left in the oscilloscope no longer quits; a held Space no longer gets stuck so every click pans; closing tabs closes the one you meant; Cmd-W under an open sheet beeps instead of closing a tab; the printed Classroom recovery sheet and class pass now show their content.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.18/CedarLogic-Native-0.3.18-mac.zip"
+        length="14077739"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="rGD5zdUI6wrGwVHSU9K3/G3P1s7vcObMcGKj6RV/topv0M3CQbD6SzAn+GLI/nB0ClDvEZBqwhDadpvUFCogBg=="/>
+    </item>
     <!-- item macos 897 -->
     <item>
       <title>CedarLogic 0.3.17 (build 897) beta</title>
@@ -174,28 +200,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="psXFSISHrE5grmjIyhl5FHT6Fq+XKyQ66fy3Idlre0gf6EyC9dVtjOtzlqpF/JGzpUtDnRl3gXszzU9hx1FtBw=="/>
-    </item>
-    <!-- item macos 818 -->
-    <item>
-      <title>CedarLogic 0.3.10 (build 818) beta</title>
-      <pubDate>Tue, 06 Oct 2026 04:42:05 -0000</pubDate>
-      <sparkle:version>818</sparkle:version>
-      <sparkle:shortVersionString>0.3.10 (build 818) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.10 (beta)</h3>
-<h3>Download</h3>
-<p><b><code>CedarLogic-0.3.10-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
-<h3>What&#x27;s new</h3>
-<ul>
-<li><b>Quitting works again with sync on.</b> After the &quot;Quit CedarLogic?&quot; question, the app could get stuck and never close. It now sends your last changes and quits.</li>
-<li>From 0.3.9: after the synced copy is reset, every device shows up in Settings › Sync › Devices again right away, and the &quot;synced circuits are damaged&quot; note clears.</li>
-<li>From 0.3.8: link this Mac by scanning, no typing. Settings › Sync › I Have a Code shows a QR code: scan it with CedarLogic on a phone that syncs (Your Circuits › Sync › Add a Device), then press Link here.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.10/CedarLogic-Native-0.3.10-mac.zip"
-        length="12052570"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="3WJAtWjEHJi0uy7KA/bLg60FnBNAPKObSLJvuFJ5UJ0QhC4XOXeYcCxKWQMj9Sy3CdlZ2AnVQYpPE+XPm8LYAw=="/>
     </item>
   </channel>
 </rss>
