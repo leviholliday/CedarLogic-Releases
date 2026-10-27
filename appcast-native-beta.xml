@@ -5,6 +5,29 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 965 -->
+    <item>
+      <title>CedarLogic 0.3.19 (build 965) beta</title>
+      <pubDate>Tue, 27 Oct 2026 02:18:18 -0000</pubDate>
+      <sparkle:version>965</sparkle:version>
+      <sparkle:shortVersionString>0.3.19 (build 965) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic for Mac 0.3.19 (beta)</h3>
+<h3>Download</h3>
+<p><b><code>CedarLogic-0.3.19-Mac.dmg</code></b> below, or update from inside the app (Help › Check for Updates). macOS 14 Sonoma or later, Apple silicon. The first time you open a downloaded copy, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+<h3>What&#x27;s new</h3>
+<p>More fixes for bugs that show up in a long session:</p>
+<ul>
+<li><b>Undo takes back one thing at a time, however long you&#x27;ve worked.</b> After about a quarter of an hour of editing (once the 500-step history is full), one ⌘Z could take back two changes, and pressing Escape on a paste could also remove the part placed just before it.</li>
+<li><b>Escape means no.</b> A paste, ⌘D copy or new part you put away with Escape no longer comes back when you press Redo.</li>
+<li><b>Drawing and pasting.</b> Putting a copy or a new part on the pointer while drawing now switches back to editing, so it can be placed, instead of getting stuck.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.19/CedarLogic-Native-0.3.19-mac.zip"
+        length="14093171"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="4SzycwRVTpnUxqon1pi3B+yrcJszQckS3DJ+L4+pJY6CUmXFWuPmbIIq02sM7Y92qSLlaLQY6Sb88y43Kt7zAw=="/>
+    </item>
     <!-- item macos 953 -->
     <item>
       <title>CedarLogic 0.3.18 (build 953) beta</title>
@@ -179,27 +202,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="EH72kwpi8Ma7GyFadP0yLmXUOHqtURpsvIWQfl6L9z+iMUj5V/yfFqTeo8JCoBBsxA9JAWQ2iuTAsGZgWVeKDw=="/>
-    </item>
-    <!-- item macos 820 -->
-    <item>
-      <title>CedarLogic 0.3.11 (build 820) beta</title>
-      <pubDate>Tue, 06 Oct 2026 06:45:06 -0000</pubDate>
-      <sparkle:version>820</sparkle:version>
-      <sparkle:shortVersionString>0.3.11 (build 820) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.11 (beta)</h3>
-<h3>Download</h3>
-<p><b><code>CedarLogic-0.3.11-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
-<h3>What&#x27;s new</h3>
-<ul>
-<li><b>A template for every flip-flop and latch.</b> File › New from Template has a new Flip-Flops and Latches section: D, D falling edge, D with clock enable, J-K, J-K falling edge, T, an SR latch and a gated D latch. Each one is ready to run, with a clock, a switch on every input and lights on Q and Q&#x27;. The PRE&#x27; and CLR&#x27; switches start on because they&#x27;re active low: turn one off to set or clear Q at once.</li>
-<li>From 0.3.10: quitting works again with sync on.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.11/CedarLogic-Native-0.3.11-mac.zip"
-        length="12063065"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="psXFSISHrE5grmjIyhl5FHT6Fq+XKyQ66fy3Idlre0gf6EyC9dVtjOtzlqpF/JGzpUtDnRl3gXszzU9hx1FtBw=="/>
     </item>
   </channel>
 </rss>
