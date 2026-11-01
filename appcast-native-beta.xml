@@ -5,6 +5,63 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 1077 -->
+    <item>
+      <title>CedarLogic 0.4 (build 1077) beta</title>
+      <pubDate>Sun, 01 Nov 2026 03:33:59 -0000</pubDate>
+      <sparkle:version>1077</sparkle:version>
+      <sparkle:shortVersionString>0.4 (build 1077) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>CedarLogic 0.4 for Mac, beta 1 (build 1077). Get it from inside CedarLogic: Help &gt; Check for Updates.</p>
+<h3>What&#x27;s new</h3>
+<h3>On every computer</h3>
+<p><b>Recently Deleted.</b> Deleting a circuit from Your Circuits no longer ends it. Open &quot;Recently Deleted&quot; in Your Circuits to see what you deleted, newest first. Restore puts a circuit back. Delete Now removes it for good, and asks first. Circuits stay for 30 days, then they go. They stay on that computer. They aren&#x27;t synced. (Mac, Windows, Linux.)</p>
+<p><b>Clear Drawing asks first.</b> Clearing all the drawing on a page now asks &quot;Clear all drawing on this page?&quot; and tells you Undo brings it back. (Mac, Windows, Linux.)</p>
+<p><b>Send Feedback has a daily limit.</b> You can send 10 reports a day. A short summary is needed before Send turns on. If you reach the limit, you can ask for more with &quot;Request more&quot; and say why in a line. You can ask once a day, and it gives you 10 more. (Mac, Windows, Linux.)</p>
+<p><b>Wires and clicks behave the same every time.</b> Clicking where two pins sit close together, or dragging a wire at a corner, now picks the same one each time you open the app.</p>
+<p><b>Connect Nearby is quicker on big pages.</b> Holding C while you move parts, and Connect Nearby Pins, no longer stop to think for minutes on a page with thousands of parts.</p>
+<p><b>Circuits save the numbers you see.</b> Part positions are saved to a ten-thousandth of a grid square. Save, reopen and save again gives the same file.</p>
+<h3>Mac</h3>
+<p><b>Open the Practice Circuit.</b> It&#x27;s in the File menu and the Help menu. It opens as a new circuit of your own, called Practice Circuit.</p>
+<p><b>Your sync code and class keys are in the Keychain.</b> They used to sit in a file that backups carried along.</p>
+<p><b>Crash reports say less.</b> A report says where the app crashed. It no longer carries a trail of clicks, web addresses, or your user name in a file path.</p>
+<h3>Fixed</h3>
+<h3>All apps (the shared engine)</h3>
+<p>The engine got a long round of checking: damaged files, damaged pastes and very long editing sessions. It found 40 problems and all are fixed. The ones you could have met:</p>
+<ul>
+<li>The app no longer quits when you paste a label that has two lines.</li>
+<li>A damaged .cdl file or a damaged paste no longer crashes the app, freezes it, or leaves a part connected to the wrong thing.</li>
+<li>A .cdl file can no longer make a memory part read or overwrite a file on your computer when it opens.</li>
+<li>A wire no longer falls into two pieces after you drag a part. Zero-length bits of wire after a drag are gone too.</li>
+<li>A wire is no longer left stretched or broken after a paste.</li>
+<li>Disconnecting a RAM&#x27;s data pin no longer leaves a wire running to nothing.</li>
+<li>Redo of Straighten Wires, Tidy Up or Build gives the same wires as the step itself.</li>
+<li>A counter at its largest number, an encoder with no inputs, a wide register, and an adder, register or equivalence gate with 0 or 1 inputs no longer crash the app or read past their data.</li>
+<li>A RAM no longer grows without limit when you only read it.</li>
+<li>Saving the same circuit twice gives the same file.</li>
+<li>A bus width or decoder size of millions in a file no longer freezes the app and runs it out of memory.</li>
+<li>Cancelling Check My Circuit part way through no longer touches a circuit that has already closed.</li>
+</ul>
+<h3>Mac</h3>
+<ul>
+<li>Once a circuit had 500 undo steps, later changes weren&#x27;t saved. They are now.</li>
+<li>A change made in a gate&#x27;s Settings sheet, such as a label&#x27;s text, is saved. Undo and Redo save too.</li>
+<li>Undo and Redo of a move, a Delete or a Disconnect give the wires back the bends you drew, not new ones.</li>
+<li>Escape on a pasted copy or a new part that&#x27;s still on the pointer no longer brings it back on Redo.</li>
+<li>A copy put on the pointer while you&#x27;re drawing can be placed.</li>
+<li>Cmd-W with a sheet open no longer closes the tab or the window behind it.</li>
+<li>Option-Left in the oscilloscope no longer quits the app after a long recording has been trimmed.</li>
+<li>A closed circuit window now lets go of its circuit.</li>
+<li>Redo of a closed tab closes the same tab after you reorder tabs.</li>
+<li>Opening a damaged file whose wire lost its id shows a notice instead of crashing.</li>
+<li>The first-launch sound no longer holds up the launch.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.4/CedarLogic-Native-0.4-mac.zip"
+        length="14177498"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="gJUpqu6QoaeQF59wjSM2Pyv+Dd+pw8bN5KqQ4RT3r+hO9bwBa4zMiPDPO84J/6aYsjggAXaTxinMvHLnoYfPDQ=="/>
+    </item>
     <!-- item macos 965 -->
     <item>
       <title>CedarLogic 0.3.19 (build 965) beta</title>
@@ -171,37 +228,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="G/YA3nBr1evJMAdvgp5UUioCNYXaLOmDBvWjOQEkxZM3szypi9TOSOj/CejFkFEvVeJfx2r70RJq9K9HKzKuCQ=="/>
-    </item>
-    <!-- item macos 866 -->
-    <item>
-      <title>CedarLogic 0.3.12 (build 866) beta</title>
-      <pubDate>Wed, 07 Oct 2026 06:12:48 -0000</pubDate>
-      <sparkle:version>866</sparkle:version>
-      <sparkle:shortVersionString>0.3.12 (build 866) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.12 (beta)</h3>
-<h3>Download</h3>
-<p><b><code>CedarLogic-0.3.12-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
-<h3>What&#x27;s new (for teaching)</h3>
-<ul>
-<li><b>Draw on the circuit.</b> Press the pencil in the toolbar (or ⌥⌘P) and draw right on your circuit with a pen, highlighter or eraser. Drawings stay pinned to the circuit, are saved with it, and can be shown or hidden (⇧⌘H). Mouse, trackpad and Wacom pens all work; a Wacom pen&#x27;s pressure changes the line width.</li>
-<li><b>Presenter mode (⇧⌘P).</b> With a projector or second screen plugged in, View › Present On puts a clean full-screen view of your circuit on it, following your editor live, so you can keep working on your laptop. With one screen, Present in This Window goes full-screen.</li>
-<li><b>Notes (⌥⌘N).</b> A notes pane for each circuit, saved with it. They can go in your lab report.</li>
-<li><b>Step Clock (K).</b> A clock can be set to move only when you step it, one full cycle at a time. The flip-flop templates use it.</li>
-<li><b>Predict, then reveal</b> and <b>Projector mode</b> in Simulation View, for lectures.</li>
-<li><b>Lock in Place.</b> Lock the starter parts so students can only wire between them.</li>
-<li><b>Check My Circuit for clocked circuits:</b> counters and state machines, with the first wrong clock step shown.</li>
-<li><b>Timing diagram worksheets:</b> leave signals blank for students to fill in.</li>
-<li><b>New templates:</b> every flip-flop and latch, five registers, and four &quot;what&#x27;s wrong here?&quot; circuits.</li>
-<li>Drawing and notes are saved in the circuit file. Older versions of CedarLogic open those files, but drop the drawing and notes if they save.</li>
-</ul>
-<h3>Please try</h3>
-<p>Presenter mode on a second screen, drawing with a Wacom pen or trackpad, and everything above.</p>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.12/CedarLogic-Native-0.3.12-mac.zip"
-        length="13156757"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="EH72kwpi8Ma7GyFadP0yLmXUOHqtURpsvIWQfl6L9z+iMUj5V/yfFqTeo8JCoBBsxA9JAWQ2iuTAsGZgWVeKDw=="/>
     </item>
   </channel>
 </rss>
