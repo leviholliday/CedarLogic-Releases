@@ -5,6 +5,68 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 1702 -->
+    <item>
+      <title>CedarLogic 0.4 (build 1702) beta</title>
+      <pubDate>Wed, 04 Nov 2026 02:27:31 -0000</pubDate>
+      <sparkle:version>1702</sparkle:version>
+      <sparkle:shortVersionString>0.4 (build 1702) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>CedarLogic 0.4 for Mac, beta 2 (build 1702). Get it from inside CedarLogic: Help &gt; Check for Updates.</p>
+<h3>New in beta 2</h3>
+<p><b>A new intro.</b> The first time you open CedarLogic, and the first time after an update, a short intro plays: the circuit draws itself, the light comes on, and a chime plays. Click or press a key to skip it. Help &gt; Play the Intro plays it again any time. If you like it, Settings &gt; General has &quot;Play the intro every time CedarLogic opens&quot;. It plays without the chime then.</p>
+<p><b>Actions on the right.</b> A strip down the right edge of the window holds the things you use most, one click away. In Settings &gt; Actions you can show it on screen, put the same buttons in the toolbar, or hide it. Search there to find an action, and right-click the strip to choose your own. Drag one up or down to change the order. Fold it away and it opens when the mouse reaches the right edge. In Focus mode it folds to a small tab. View &gt; Show Actions (Control-Command-S) opens and folds it. If you used CedarLogic before, it starts hidden: turn it on with View &gt; Show Actions.</p>
+<p><b>The menus work right away.</b> File &gt; Export as Image and the other menu items are ready as soon as the app opens. You no longer need to click the circuit first.</p>
+<p><b>Welcome and What&#x27;s New stay closed.</b> They no longer open again over your circuit the next time you start the app.</p>
+<h3>What&#x27;s new</h3>
+<h3>On every computer</h3>
+<p><b>Recently Deleted.</b> Deleting a circuit from Your Circuits no longer ends it. Open &quot;Recently Deleted&quot; in Your Circuits to see what you deleted, newest first. Restore puts a circuit back. Delete Now removes it for good, and asks first. Circuits stay for 30 days, then they go. They stay on that computer. They aren&#x27;t synced. (Mac, Windows, Linux.)</p>
+<p><b>Clear Drawing asks first.</b> Clearing all the drawing on a page now asks &quot;Clear all drawing on this page?&quot; and tells you Undo brings it back. (Mac, Windows, Linux.)</p>
+<p><b>Send Feedback has a daily limit.</b> You can send 10 reports a day. A short summary is needed before Send turns on. If you reach the limit, you can ask for more with &quot;Request more&quot; and say why in a line. You can ask once a day, and it gives you 10 more. (Mac, Windows, Linux.)</p>
+<p><b>Wires and clicks behave the same every time.</b> Clicking where two pins sit close together, or dragging a wire at a corner, now picks the same one each time you open the app.</p>
+<p><b>Connect Nearby is quicker on big pages.</b> Holding C while you move parts, and Connect Nearby Pins, no longer stop to think for minutes on a page with thousands of parts.</p>
+<p><b>Circuits save the numbers you see.</b> Part positions are saved to a ten-thousandth of a grid square. Save, reopen and save again gives the same file.</p>
+<h3>Mac</h3>
+<p><b>Open the Practice Circuit.</b> It&#x27;s in the File menu and the Help menu. It opens as a new circuit of your own, called Practice Circuit.</p>
+<p><b>Your sync code and class keys are in the Keychain.</b> They used to sit in a file that backups carried along.</p>
+<p><b>Crash reports say less.</b> A report says where the app crashed. It no longer carries a trail of clicks, web addresses, or your user name in a file path.</p>
+<h3>Fixed</h3>
+<h3>All apps (the shared engine)</h3>
+<p>The engine got a long round of checking: damaged files, damaged pastes and very long editing sessions. It found 40 problems and all are fixed. The ones you could have met:</p>
+<ul>
+<li>The app no longer quits when you paste a label that has two lines.</li>
+<li>A damaged .cdl file or a damaged paste no longer crashes the app, freezes it, or leaves a part connected to the wrong thing.</li>
+<li>A .cdl file can no longer make a memory part read or overwrite a file on your computer when it opens.</li>
+<li>A wire no longer falls into two pieces after you drag a part. Zero-length bits of wire after a drag are gone too.</li>
+<li>A wire is no longer left stretched or broken after a paste.</li>
+<li>Disconnecting a RAM&#x27;s data pin no longer leaves a wire running to nothing.</li>
+<li>Redo of Straighten Wires, Tidy Up or Build gives the same wires as the step itself.</li>
+<li>A counter at its largest number, an encoder with no inputs, a wide register, and an adder, register or equivalence gate with 0 or 1 inputs no longer crash the app or read past their data.</li>
+<li>A RAM no longer grows without limit when you only read it.</li>
+<li>Saving the same circuit twice gives the same file.</li>
+<li>A bus width or decoder size of millions in a file no longer freezes the app and runs it out of memory.</li>
+<li>Cancelling Check My Circuit part way through no longer touches a circuit that has already closed.</li>
+</ul>
+<h3>Mac</h3>
+<ul>
+<li>Once a circuit had 500 undo steps, later changes weren&#x27;t saved. They are now.</li>
+<li>A change made in a gate&#x27;s Settings sheet, such as a label&#x27;s text, is saved. Undo and Redo save too.</li>
+<li>Undo and Redo of a move, a Delete or a Disconnect give the wires back the bends you drew, not new ones.</li>
+<li>Escape on a pasted copy or a new part that&#x27;s still on the pointer no longer brings it back on Redo.</li>
+<li>A copy put on the pointer while you&#x27;re drawing can be placed.</li>
+<li>Cmd-W with a sheet open no longer closes the tab or the window behind it.</li>
+<li>Option-Left in the oscilloscope no longer quits the app after a long recording has been trimmed.</li>
+<li>A closed circuit window now lets go of its circuit.</li>
+<li>Redo of a closed tab closes the same tab after you reorder tabs.</li>
+<li>Opening a damaged file whose wire lost its id shows a notice instead of crashing.</li>
+<li>The first-launch sound no longer holds up the launch.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.4/CedarLogic-Native-0.4-mac.zip"
+        length="14456202"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="+5VJrOzHk3RQpRF1TeBCEA7aD8yRjWGSsjIW1VY2QQ9iesw4skQLu+r3RV6PgrKrzoKSkRLJNK5Lh87lky/8Dg=="/>
+    </item>
     <!-- item macos 1077 -->
     <item>
       <title>CedarLogic 0.4 (build 1077) beta</title>
@@ -204,30 +266,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="U23KKeGfDKks1vXSbcs3dfDh4y/ZmnuDy/OeE30gzvF1DcCRHEM1afRHrrgY1A0fvouTvqRGzOs5psnFQxsXCQ=="/>
-    </item>
-    <!-- item macos 871 -->
-    <item>
-      <title>CedarLogic 0.3.13 (build 871) beta</title>
-      <pubDate>Wed, 07 Oct 2026 08:04:38 -0000</pubDate>
-      <sparkle:version>871</sparkle:version>
-      <sparkle:shortVersionString>0.3.13 (build 871) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.13 (beta)</h3>
-<h3>Download</h3>
-<p><b><code>CedarLogic-0.3.13-Mac.dmg</code></b> below: open it and drag CedarLogic into Applications. macOS 14 Sonoma or later, Apple silicon. The first time you open it, macOS may ask you to confirm: open <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
-<h3>What&#x27;s new</h3>
-<ul>
-<li><b>Presenter mode shows what you&#x27;re doing.</b> Your audience now sees your mouse pointer (with a ring when you click), what you select, the drag-select box, the part or wire you&#x27;re moving, and wires being connected. If you&#x27;re building in the normal editing view, they see the editing view. They only see Simulation View when you&#x27;re in Simulation View.</li>
-<li><b>A pulse button as the clock.</b> In New from Template, flip-flops and registers can use a Single-Pulse Generator button as their Clock: click it to clock the circuit once.</li>
-<li><b>Drawing width is easier to find.</b> The drawing bar has a Width control, and 1, 2 and 3 pick thin, medium and thick. A plain trackpad has no pressure, so lines are a steady medium width.</li>
-<li><b>Never stuck after opening a circuit.</b> Questions from Your Circuits can no longer get stuck behind a hidden window, a newly opened circuit takes the keyboard at once, and View › Make This Window Editable clears Lock, Draw, Simulation View and any stuck state.</li>
-<li>From 0.3.12: drawing, notes, Step Clock (K), Predict and Projector mode, Lock in Place, Check My Circuit for clocked circuits, timing worksheets and new templates.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.13/CedarLogic-Native-0.3.13-mac.zip"
-        length="13199795"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="G/YA3nBr1evJMAdvgp5UUioCNYXaLOmDBvWjOQEkxZM3szypi9TOSOj/CejFkFEvVeJfx2r70RJq9K9HKzKuCQ=="/>
     </item>
   </channel>
 </rss>
