@@ -5,6 +5,79 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 1743 -->
+    <item>
+      <title>CedarLogic 0.4 (build 1743) beta</title>
+      <pubDate>Wed, 04 Nov 2026 23:30:41 -0000</pubDate>
+      <sparkle:version>1743</sparkle:version>
+      <sparkle:shortVersionString>0.4 (build 1743) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>CedarLogic 0.4 for Mac, beta 4 (build 1743). Get it from inside CedarLogic: CedarLogic &gt; Check for Updates (it&#x27;s in the CedarLogic menu, next to Settings).</p>
+<h3>New in beta 4</h3>
+<p><b>A small favour.</b> There&#x27;s a new page in the welcome, and it shows up once after this update too. It asks whether you&#x27;d like to send anonymous crash reports and usage stats. Both stay off unless you say yes. &quot;See exactly what&#x27;s sent&quot; shows you a real report. Nothing in them identifies you: no name, no circuits, no files. You can change your mind any time in Settings &gt; Privacy, and you can delete anything already sent from there too.</p>
+<p>For testers: the part that receives reports goes live with the full 0.4 release. Until then, a report waits on your Mac and goes out later. At most a week&#x27;s worth is kept.</p>
+<h3>New in beta 3</h3>
+<p><b>Show Me Around.</b> A quick walk round the window: the palette, the canvas, the toolbar, the Actions panel, the run controls, the tabs and the menu bar, one short line each. It starts once by itself, after the welcome or What&#x27;s New closes. Use Next and Back, or the arrow keys, and Skip or Escape to stop. Help &gt; Show Me Around plays it again any time.</p>
+<p><b>The Actions panel is on for everyone.</b> It&#x27;s the strip of buttons down the right edge of the window, now turned on and unfolded for everybody, including anyone who had it hidden. Settings &gt; Actions has one switch to turn it off, with &quot;Open on hover&quot; under it. Drag a button up or down to reorder it. In Customize, search finds any command by its name, menu or shortcut.</p>
+<p><b>A short intro every time CedarLogic opens.</b> The circuit draws itself and the light comes on, then it goes straight into your window. It takes about three and a half seconds, with no sound. The first launch and the first launch after an update still play the full intro with its chime. Choose what you like in Settings &gt; General &gt; &quot;When CedarLogic opens&quot;: Short intro, Full intro, Classic launch screen (the launch screen from before the intro), or None (straight to your circuit). Click or press a key to skip any of them.</p>
+<p><b>No more password prompt after updates.</b> Your sync code and class keys are kept in a way every new version can read. macOS may ask for your password one last time, the first time this version opens. After that it won&#x27;t ask again when CedarLogic updates.</p>
+<p><b>Help &gt; Learn Logic Online.</b> It opens the lessons on the CedarLogic website, with live circuits to try. You can put it on the Actions panel too.</p>
+<p><b>Smaller things.</b> About CedarLogic shows a contact address, cedarlogic@proton.me. The logic lesson is now called &quot;Learn Logic: Guided Tour&quot; everywhere, so it&#x27;s easy to tell apart from Show Me Around.</p>
+<h3>New in beta 2</h3>
+<p>(Beta 3 changed some of this: see above.)</p>
+<p><b>A new intro.</b> The first time you open CedarLogic, and the first time after an update, a short intro plays: the circuit draws itself, the light comes on, and a chime plays. Click or press a key to skip it. Help &gt; Play the Intro plays it again any time. If you like it, Settings &gt; General has &quot;Play the intro every time CedarLogic opens&quot;. It plays without the chime then.</p>
+<p><b>Actions on the right.</b> A strip down the right edge of the window holds the things you use most, one click away. In Settings &gt; Actions you can show it on screen, put the same buttons in the toolbar, or hide it. Search there to find an action, and right-click the strip to choose your own. Drag one up or down to change the order. Fold it away and it opens when the mouse reaches the right edge. In Focus mode it folds to a small tab. View &gt; Show Actions (Control-Command-S) opens and folds it. If you used CedarLogic before, it starts hidden: turn it on with View &gt; Show Actions.</p>
+<p><b>The menus work right away.</b> File &gt; Export as Image and the other menu items are ready as soon as the app opens. You no longer need to click the circuit first.</p>
+<p><b>Welcome and What&#x27;s New stay closed.</b> They no longer open again over your circuit the next time you start the app.</p>
+<h3>What&#x27;s new</h3>
+<h3>On every computer</h3>
+<p><b>Recently Deleted.</b> Deleting a circuit from Your Circuits no longer ends it. Open &quot;Recently Deleted&quot; in Your Circuits to see what you deleted, newest first. Restore puts a circuit back. Delete Now removes it for good, and asks first. Circuits stay for 30 days, then they go. They stay on that computer. They aren&#x27;t synced. (Mac, Windows, Linux.)</p>
+<p><b>Clear Drawing asks first.</b> Clearing all the drawing on a page now asks &quot;Clear all drawing on this page?&quot; and tells you Undo brings it back. (Mac, Windows, Linux.)</p>
+<p><b>Send Feedback has a daily limit.</b> You can send 10 reports a day. A short summary is needed before Send turns on. If you reach the limit, you can ask for more with &quot;Request more&quot; and say why in a line. You can ask once a day, and it gives you 10 more. (Mac, Windows, Linux.)</p>
+<p><b>Wires and clicks behave the same every time.</b> Clicking where two pins sit close together, or dragging a wire at a corner, now picks the same one each time you open the app.</p>
+<p><b>Connect Nearby is quicker on big pages.</b> Holding C while you move parts, and Connect Nearby Pins, no longer stop to think for minutes on a page with thousands of parts.</p>
+<p><b>Circuits save the numbers you see.</b> Part positions are saved to a ten-thousandth of a grid square. Save, reopen and save again gives the same file.</p>
+<h3>Mac</h3>
+<p><b>Open the Practice Circuit.</b> It&#x27;s in the File menu and the Help menu. It opens as a new circuit of your own, called Practice Circuit.</p>
+<p><b>Your sync code and class keys are in the Keychain.</b> They used to sit in a file that backups carried along.</p>
+<p><b>Crash reports say less.</b> A report says where the app crashed. It no longer carries a trail of clicks, web addresses, or your user name in a file path.</p>
+<h3>Fixed</h3>
+<h3>All apps (the shared engine)</h3>
+<p>The engine got a long round of checking: damaged files, damaged pastes and very long editing sessions. It found 40 problems and all are fixed. The ones you could have met:</p>
+<ul>
+<li>The app no longer quits when you paste a label that has two lines.</li>
+<li>A damaged .cdl file or a damaged paste no longer crashes the app, freezes it, or leaves a part connected to the wrong thing.</li>
+<li>A .cdl file can no longer make a memory part read or overwrite a file on your computer when it opens.</li>
+<li>A wire no longer falls into two pieces after you drag a part. Zero-length bits of wire after a drag are gone too.</li>
+<li>A wire is no longer left stretched or broken after a paste.</li>
+<li>Disconnecting a RAM&#x27;s data pin no longer leaves a wire running to nothing.</li>
+<li>Redo of Straighten Wires, Tidy Up or Build gives the same wires as the step itself.</li>
+<li>A counter at its largest number, an encoder with no inputs, a wide register, and an adder, register or equivalence gate with 0 or 1 inputs no longer crash the app or read past their data.</li>
+<li>A RAM no longer grows without limit when you only read it.</li>
+<li>Saving the same circuit twice gives the same file.</li>
+<li>A bus width or decoder size of millions in a file no longer freezes the app and runs it out of memory.</li>
+<li>Cancelling Check My Circuit part way through no longer touches a circuit that has already closed.</li>
+</ul>
+<h3>Mac</h3>
+<ul>
+<li>Once a circuit had 500 undo steps, later changes weren&#x27;t saved. They are now.</li>
+<li>A change made in a gate&#x27;s Settings sheet, such as a label&#x27;s text, is saved. Undo and Redo save too.</li>
+<li>Undo and Redo of a move, a Delete or a Disconnect give the wires back the bends you drew, not new ones.</li>
+<li>Escape on a pasted copy or a new part that&#x27;s still on the pointer no longer brings it back on Redo.</li>
+<li>A copy put on the pointer while you&#x27;re drawing can be placed.</li>
+<li>Cmd-W with a sheet open no longer closes the tab or the window behind it.</li>
+<li>Option-Left in the oscilloscope no longer quits the app after a long recording has been trimmed.</li>
+<li>A closed circuit window now lets go of its circuit.</li>
+<li>Redo of a closed tab closes the same tab after you reorder tabs.</li>
+<li>Opening a damaged file whose wire lost its id shows a notice instead of crashing.</li>
+<li>The first-launch sound no longer holds up the launch.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.4/CedarLogic-Native-0.4-mac.zip"
+        length="14794373"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="8KNPefG61B2kZazF/INHkYOpv0+/7lsk5dn7TSROBGTKu8O0fiRWARlwal5r+TAKkhkJPfhSzxxEaEYSRfXFCQ=="/>
+    </item>
     <!-- item macos 1732 -->
     <item>
       <title>CedarLogic 0.4 (build 1732) beta</title>
