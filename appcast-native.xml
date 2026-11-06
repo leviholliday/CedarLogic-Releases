@@ -5,6 +5,79 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates</description>
     <language>en</language>
+    <!-- item macos 1784 -->
+    <item>
+      <title>CedarLogic 0.4 (build 1784)</title>
+      <pubDate>Fri, 06 Nov 2026 01:11:09 -0000</pubDate>
+      <sparkle:version>1784</sparkle:version>
+      <sparkle:shortVersionString>0.4 (build 1784)</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 0.4</h3>
+<p><b>CedarLogic</b> is a free, open-source digital logic simulator. Drag in gates, wire them up and watch the signals flow, then press one key for the truth table, the Karnaugh map and the simplest formula. It began at Cedarville University, and 0.4 is the first version for <b>Mac, Windows and Linux</b> together: one app, built natively for each.</p>
+<h3>Install</h3>
+<p><b>Mac</b> (macOS 14 Sonoma or newer, Apple silicon)</p>
+<p><code>`</code></p>
+<p>brew install --cask leviholliday/tap/cedarlogic</p>
+<p><code>`</code></p>
+<p>Or download <code>CedarLogic-0.4-Mac.dmg</code> below and drag CedarLogic to Applications. The first time you open it, macOS may say it can&#x27;t check the app: open System Settings › Privacy &amp; Security, scroll down and click <b>Open Anyway</b>. You only do this once.</p>
+<p><b>Windows</b> (Windows 10 or 11, 64-bit)</p>
+<p><code>`</code></p>
+<p>irm https://cedarlogic.netlify.app/install.ps1 | iex</p>
+<p><code>`</code></p>
+<p>Or with Scoop:</p>
+<p><code>`</code></p>
+<p>scoop bucket add cedarlogic https://github.com/leviholliday/scoop-cedarlogic</p>
+<p>scoop install cedarlogic/cedarlogic</p>
+<p><code>`</code></p>
+<p>(winget is on its way: <code>winget install --id LeviHolliday.CedarLogic -e</code> works once CedarLogic is listed there.) Or download the installer below: <code>CedarLogic-0.4-Windows-Setup-x64.exe</code> for most PCs, <code>-ARM64.exe</code> for Windows on ARM. If Windows says &quot;Windows protected your PC&quot;, click <b>More info</b>, then <b>Run anyway</b>. The <code>.zip</code> files run without installing. No administrator is needed.</p>
+<p><b>Linux</b> (Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm 64-bit on a Pi 4 or 5, Fedora 36, or newer)</p>
+<p><code>`</code></p>
+<p>curl -fsSL https://cedarlogic.netlify.app/install.sh | sh</p>
+<p><code>`</code></p>
+<p>On Ubuntu, Debian, Mint, Zorin and Raspberry Pi OS it installs the .deb with apt; on Fedora and the rest it puts the AppImage in your home folder. Or download <code>cedarlogic_0.4_amd64.deb</code> (PCs) or <code>cedarlogic_0.4_arm64.deb</code> (Raspberry Pi), or an AppImage (<code>x86_64</code> or <code>aarch64</code>) below.</p>
+<p>Every installer checks CedarLogic&#x27;s signature before it installs anything, and CedarLogic keeps itself up to date after that. <code>SHA256SUMS</code> and its <code>.sig</code> below list every file.</p>
+<h3>What&#x27;s new</h3>
+<h3>On every computer</h3>
+<ul>
+<li><b>An intro.</b> Every time CedarLogic opens, a short intro draws the circuit and lights it up (about three and a half seconds, silent). The first launch and the first after an update play a longer one with a chime. Any key or click skips it. In Settings › General, &quot;When CedarLogic opens&quot; picks Short intro, Full intro, Classic launch screen or None, and Help › Play the Intro plays it again.</li>
+<li><b>The Actions panel.</b> The commands you use most, as buttons down the window&#x27;s right edge, on for everyone. Drag them into your own order, or search every menu command in Customize. One switch in Settings › Actions turns it off, and &quot;Open on hover&quot; slides it out when the pointer reaches the edge (Control-Command-S on a Mac, Ctrl+B on Windows, F9 on Linux).</li>
+<li><b>Show Me Around.</b> A short guided walk around the window that starts once by itself, and any time from Help › Show Me Around. Help › Learn Logic Online opens the lessons on the website.</li>
+<li><b>A small favour.</b> CedarLogic asks once whether you&#x27;d like to send anonymous crash reports and usage stats. Both are off unless you say yes, nothing identifies you, and Settings › Privacy shows exactly what would be sent and lets you delete it.</li>
+<li><b>Recently Deleted.</b> A circuit you delete from Your Circuits waits 30 days in Recently Deleted, where you can restore it.</li>
+<li><b>Clear Drawing asks first</b>, and Undo brings it back.</li>
+<li><b>Steadier wires and clicks.</b> Clicking between close pins or dragging a wire at a corner picks the same thing every time, and Connect Nearby no longer stalls on big pages.</li>
+<li><b>Circuits save the numbers you see</b>: save, reopen and save again gives the same file.</li>
+</ul>
+<h3>Mac</h3>
+<ul>
+<li>The menus and shortcuts work the moment the app opens, and the welcome and What&#x27;s New no longer reopen over your circuit.</li>
+<li>Open the Practice Circuit from the File or Help menu.</li>
+<li>Your sync code and class keys live in the Keychain, and crash reports carry less about you.</li>
+</ul>
+<h3>Windows and Linux</h3>
+<ul>
+<li><b>A real menu bar</b>, in the same order as the Mac&#x27;s.</li>
+<li><b>Record your window for Send Feedback</b>: up to a minute of just the CedarLogic window.</li>
+<li><b>Predict, Then Reveal</b>: in Simulation View, guess each light and display, then reveal.</li>
+<li><b>Export as Image</b> can match the window, so a dark-mode circuit exports dark.</li>
+<li>Opening a circuit replaces the one you have open, as on the Mac (you can change it in Settings), and Ctrl+Tab shows a panel of your tabs.</li>
+<li>Settings › General › Testing group: stay on finished versions (Normal) or get test builds too (Beta tester).</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><b>A long round of checking of the shared engine</b> found 40 problems with damaged files, damaged pastes and very long editing sessions, and all are fixed. Among them: pasting a two-line label no longer quits the app, a damaged file or paste can&#x27;t crash or freeze it, a wire no longer falls into two pieces after a drag, and a file can no longer make a memory part touch other files on your computer.</li>
+<li><b>Mac:</b> changes after 500 undo steps are saved again, a gate&#x27;s Settings changes are saved, Undo and Redo give wires back the bends you drew, and Cmd-W with a sheet open closes just the sheet.</li>
+<li><b>Windows:</b> Share Link no longer carries your private Notes, and dragging a part is smoother.</li>
+<li><b>Linux:</b> C connects a moving part wherever the keyboard focus is.</li>
+</ul>
+<h3>Questions, bugs, ideas</h3>
+<p>Use <b>Help › Send Feedback</b> in the app, or write to <b>cedarlogic@proton.me</b>. More at [cedarlogic.netlify.app](https://cedarlogic.netlify.app).</p>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.4/CedarLogic-Native-0.4-mac.zip"
+        length="14794376"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="X8mhZnuJV4phTCrJDrMR6N+zVkuY0uwBBosML05kHCliRm6T2Xr5iPmpChF/hlHcGUXdnJc/x6NDCDB2EC9mAQ=="/>
+    </item>
     <!-- item macos 758 -->
     <item>
       <title>CedarLogic 0.3.4 (build 758)</title>
