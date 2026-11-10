@@ -5,6 +5,33 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 1794 -->
+    <item>
+      <title>CedarLogic 0.4.1 (build 1794) beta</title>
+      <pubDate>Tue, 10 Nov 2026 18:51:27 -0000</pubDate>
+      <sparkle:version>1794</sparkle:version>
+      <sparkle:shortVersionString>0.4.1 (build 1794) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 0.4.1</h3>
+<p>A data-safety and privacy update.</p>
+<h3>Fixed</h3>
+<ul>
+<li><b>A circuit opened from a share link is kept.</b> It now joins Your Circuits. In 0.4 it was saved in a temporary folder that macOS empties after a few days. If you opened a link in 0.4 and want to keep that circuit, open the link again.</li>
+<li><b>A new circuit with only notes or a drawing is saved.</b> In 0.4 a circuit wasn&#x27;t kept until it had a part on it.</li>
+<li><b>Version History&#x27;s Restore brings back the right circuit</b>, even when another circuit&#x27;s window is in front.</li>
+<li>A file with a part type this version doesn&#x27;t have no longer adds a blank category to the parts list.</li>
+</ul>
+<h3>Privacy</h3>
+<ul>
+<li><b>Crash reports send nothing unless CedarLogic crashes.</b> If you turned crash reports on, 0.4&#x27;s crash reporter was also set to count each time the app opened. It never sent circuits, names or files, but it was more than Settings › Privacy said. It&#x27;s off now.</li>
+</ul>
+<p>Questions or bugs: <b>Help › Send Feedback</b>, or cedarlogic@proton.me.</p>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.4.1/CedarLogic-Native-0.4.1-mac.zip"
+        length="14795855"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="2oA2CkMCs3FO+vZ/zHv8V4ig2IUgfSX9HwajiYm7HL0AdtD+wIVBukkiinWXCOD3YM3nZM37k1Fvymx+y94aBw=="/>
+    </item>
     <!-- item macos 1784 -->
     <item>
       <title>CedarLogic 0.4 (build 1784)</title>
