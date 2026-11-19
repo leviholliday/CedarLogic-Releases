@@ -5,6 +5,49 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates</description>
     <language>en</language>
+    <!-- item macos 1801 -->
+    <item>
+      <title>CedarLogic 4.1 (build 1801)</title>
+      <pubDate>Thu, 19 Nov 2026 02:00:46 -0000</pubDate>
+      <sparkle:version>1801</sparkle:version>
+      <sparkle:shortVersionString>4.1 (build 1801)</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 4.1</h3>
+<p>A small update for <b>Mac, Windows and Linux</b>. If you already have CedarLogic, it will offer this update by itself (or use Check for Updates).</p>
+<h3>New</h3>
+<ul>
+<li><b>Messages from CedarLogic, once in a while.</b> When the daily update check finds nothing new, CedarLogic also reads one small file next to the updates and, on the day a message is due, shows it once, with <b>Remind Me Later</b> and <b>No Thanks</b>. Nothing about you is sent, messages only link to cedarlogic.netlify.app, and with automatic update checks turned off there are none. Nothing shows up today: the first one is planned for next year.</li>
+</ul>
+<h3>Install</h3>
+<p><b>Mac</b> (macOS 14 Sonoma or newer, Apple silicon)</p>
+<p><code>`</code></p>
+<p>brew install --cask leviholliday/tap/cedarlogic</p>
+<p><code>`</code></p>
+<p>Or download <code>CedarLogic-4.1-Mac.dmg</code> below and drag CedarLogic to Applications. The first time you open it, macOS may say it can&#x27;t check the app: open System Settings › Privacy &amp; Security, scroll down and click <b>Open Anyway</b>. You only do this once.</p>
+<p><b>Windows</b> (Windows 10 or 11, 64-bit)</p>
+<p><code>`</code></p>
+<p>irm https://cedarlogic.netlify.app/install.ps1 | iex</p>
+<p><code>`</code></p>
+<p>Or with Scoop:</p>
+<p><code>`</code></p>
+<p>scoop bucket add cedarlogic https://github.com/leviholliday/scoop-cedarlogic</p>
+<p>scoop install cedarlogic/cedarlogic</p>
+<p><code>`</code></p>
+<p>Or download the installer below: <code>CedarLogic-4.1-Windows-Setup-x64.exe</code> for most PCs, <code>-ARM64.exe</code> for Windows on ARM. If Windows says &quot;Windows protected your PC&quot;, click <b>More info</b>, then <b>Run anyway</b>. The <code>.zip</code> files run without installing. No administrator is needed.</p>
+<p><b>Linux</b> (Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm 64-bit on a Pi 4 or 5, Fedora 36, or newer)</p>
+<p><code>`</code></p>
+<p>curl -fsSL https://cedarlogic.netlify.app/install.sh | sh</p>
+<p><code>`</code></p>
+<p>On Ubuntu, Debian, Mint, Zorin and Raspberry Pi OS it installs the .deb with apt; on Fedora and the rest it puts the AppImage in your home folder. Or download <code>cedarlogic_4.1_amd64.deb</code> (PCs) or <code>cedarlogic_4.1_arm64.deb</code> (Raspberry Pi), or an AppImage (<code>x86_64</code> or <code>aarch64</code>) below.</p>
+<p>Every installer checks CedarLogic&#x27;s signature before it installs anything. <code>SHA256SUMS</code> and its <code>.sig</code> below list every file.</p>
+<h3>Questions, bugs, ideas</h3>
+<p>Use <b>Help › Send Feedback</b> in the app, or write to <b>cedarlogic@proton.me</b>. More at [cedarlogic.netlify.app](https://cedarlogic.netlify.app). Earlier releases and their notes are on the [releases page](https://github.com/leviholliday/CedarLogic-Releases/releases).</p>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.1/CedarLogic-Native-4.1-mac.zip"
+        length="14859762"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="vXLVhoAsytin7aJDld8jfI0FhAeteYCCOPziHSCzWl8bVQPtqUPIDfJy6G/3Z6Bp3VOfGk9jcm+DCs4bAeFADg=="/>
+    </item>
     <!-- item macos 1794 -->
     <item>
       <title>CedarLogic 0.4.1 (build 1794)</title>
