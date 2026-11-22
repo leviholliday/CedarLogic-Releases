@@ -5,6 +5,39 @@
     <link>https://github.com/leviholliday/CedarLogic-Releases</link>
     <description>CedarLogic Native updates (beta testers)</description>
     <language>en</language>
+    <!-- item macos 1817 -->
+    <item>
+      <title>CedarLogic 4.1.1 (build 1817) beta</title>
+      <pubDate>Sun, 22 Nov 2026 03:37:49 -0000</pubDate>
+      <sparkle:version>1817</sparkle:version>
+      <sparkle:shortVersionString>4.1.1 (build 1817) beta</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>CedarLogic 4.1.1 beta 1</h3>
+<p>This beta makes Tidy Up and Straighten draw neater circuits.</p>
+<p><b>Tidy Up, keep rough layout</b></p>
+<ul>
+<li>Wires no longer loop round displays, keypads and blocks.</li>
+<li>A part dropped on top of another goes back beside it, and labels stacked beside a part return to pin order.</li>
+<li>Crowded parts are moved apart just enough for the wires between them.</li>
+</ul>
+<p><b>Tidy Up, full rearrange</b></p>
+<ul>
+<li>Captions stay with the part they label.</li>
+<li>Parts drawn turned round are laid out right to left, as drawn.</li>
+<li>Separate groups are stacked instead of being laid out in one long strip, and labels sit next to what drives them.</li>
+</ul>
+<p><b>Straighten</b></p>
+<ul>
+<li>Fewer staircases and doubled-back branches.</li>
+<li>A wire through a busy group goes straight through it instead of round the outside.</li>
+</ul>
+<p>If a circuit comes out worse than before, please send it with Help &gt; Send Feedback.</p>]]></description>
+      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v4.1.1/CedarLogic-Native-4.1.1-mac.zip"
+        length="14907090"
+        type="application/octet-stream"
+        sparkle:os="macos"
+        sparkle:edSignature="D0YMoj6r1KmhXUgRJLsc5812G+8EXkN+y2TEwUJ8LfwN7jLAjoNrBv2R30EkHosFaA2V5KueQ0XKb6cOvzmNDA=="/>
+    </item>
     <!-- item macos 1801 -->
     <item>
       <title>CedarLogic 4.1 (build 1801)</title>
@@ -244,30 +277,6 @@
         type="application/octet-stream"
         sparkle:os="macos"
         sparkle:edSignature="O+6dmjr8A3Msup4gKwhytVRCENM2ETJg99+WuQgRb3KK00p5NtcAPT4Y3pqm8VMAjFDS6U9uN+mj/O08j3FNBw=="/>
-    </item>
-    <!-- item macos 876 -->
-    <item>
-      <title>CedarLogic 0.3.15 (build 876) beta</title>
-      <pubDate>Thu, 08 Oct 2026 08:54:11 -0000</pubDate>
-      <sparkle:version>876</sparkle:version>
-      <sparkle:shortVersionString>0.3.15 (build 876) beta</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>CedarLogic for Mac 0.3.15 (beta)</h3>
-<p>Update from inside the app (Help › Check for Updates). This beta has no disk image download.</p>
-<h3>What&#x27;s new: Classroom, reworked (File › Classroom)</h3>
-<ul>
-<li><b>Share a circuit with your class.</b> Students get &quot;Your teacher shared …&quot; and open it as their own copy to play with. Share an update and they can open the new version without losing theirs.</li>
-<li><b>Class examples.</b> Add circuits to your class&#x27;s examples, sorted by topic, and release each one when you&#x27;re ready. Students can open released ones anytime.</li>
-<li><b>Simpler hand-in.</b> An assignment opens with Instructions, Check and Hand In. Every attempt is kept for the teacher.</li>
-<li><b>Check against your solution.</b> Use a solution circuit as the answer key: it compares what the circuits do, not where the parts are.</li>
-<li><b>Your classes on all your devices</b> when Sync is on.</li>
-<li>The prediction poll is gone. Show on Projector closes with Escape. The recovery sheet prints properly.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/leviholliday/CedarLogic-Releases/releases/download/v0.3.15/CedarLogic-Native-0.3.15-mac.zip"
-        length="13757434"
-        type="application/octet-stream"
-        sparkle:os="macos"
-        sparkle:edSignature="cwPeGz9dG9pfpq805aIlbwm50CtnwSPcj1sJBrSuPKqPJaafDhYTSrNtmWn66uS6MLhdOpnT3OWpHkiqGzLHDA=="/>
     </item>
   </channel>
 </rss>
